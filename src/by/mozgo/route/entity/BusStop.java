@@ -60,7 +60,9 @@ public class BusStop {
         }
         busStopLock.unlock();
         TimeUnit.SECONDS.sleep(1);
+        busStopLock.lock();
         stoppedBuses.remove(bus);
+        busStopLock.unlock();
         LOGGER.log(Level.INFO, "{}. Bus{} leaved stop.", name, bus.getId());
         semaphore.release();
     }

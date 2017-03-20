@@ -35,7 +35,7 @@ public class RouteReader {
         }
         if (lines.size() == 0) {
             LOGGER.log(Level.FATAL, "Input file empty! ");
-            throw new RuntimeException("Input file empty! ");
+            throw new RuntimeException("Input file empty!");
         }
         return lines;
     }

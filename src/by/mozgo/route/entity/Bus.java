@@ -15,9 +15,8 @@ public class Bus extends Thread {
     private int passengers;
     private List<BusStop> route;
 
-    public Bus(int id, int passengers, List<BusStop> route) {
+    public Bus(int id, List<BusStop> route) {
         this.id = id;
-        this.passengers = passengers;
         this.route = route;
     }
 
@@ -42,6 +41,7 @@ public class Bus extends Thread {
 
     public void addPassengers(int newPassengers) {
         passengers += newPassengers;
+        PassengersCount.getInstance().addPassengers(newPassengers);
     }
 
     public void exitPassengers(int exitedPassengers) {
