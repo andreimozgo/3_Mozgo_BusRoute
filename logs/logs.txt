@@ -3960,3 +3960,1007 @@
 2017-03-21 01:10:18 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus6: 13
 2017-03-21 01:10:19 [INFO ] (BusStop.java:66) - STOP10. Bus6 leaved stop.
 2017-03-21 01:10:19 [INFO ] (RouteMain.java:28) - 339 passengers were transported.
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP2, capacity: 3, passengers: 10
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP3, capacity: 2, passengers: 10
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP4, capacity: 2, passengers: 15
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP5, capacity: 4, passengers: 8
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP6, capacity: 3, passengers: 18
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP7, capacity: 3, passengers: 9
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP8, capacity: 1, passengers: 11
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP9, capacity: 3, passengers: 14
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:37) - Added BusStop: STOP10, capacity: 3, passengers: 9
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:59) - Added bus: 1 0 [STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:59) - Added bus: 2 0 [STOP1, STOP9, STOP8, STOP7, STOP6, STOP5, STOP4, STOP3, STOP2, STOP1]
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:59) - Added bus: 3 0 [STOP1, STOP2, STOP5, STOP7, STOP9, STOP3, STOP4, STOP6, STOP10, STOP8]
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:59) - Added bus: 4 0 [STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:59) - Added bus: 5 0 [STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-21 01:22:48 [INFO ] (BusCreator.java:59) - Added bus: 6 0 [STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-21 01:22:48 [INFO ] (BusStop.java:36) - STOP1: Bus1 reached stop 
+2017-03-21 01:22:48 [INFO ] (BusStop.java:38) - STOP1: Bus1 acquired semaphore
+2017-03-21 01:22:48 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 20. Buses on stop: 1
+2017-03-21 01:22:48 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus1: 0
+2017-03-21 01:22:48 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:22:48 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus1: 10
+2017-03-21 01:22:48 [INFO ] (BusStop.java:36) - STOP1: Bus2 reached stop 
+2017-03-21 01:22:48 [INFO ] (BusStop.java:38) - STOP1: Bus2 acquired semaphore
+2017-03-21 01:22:48 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 10. Buses on stop: 2
+2017-03-21 01:22:48 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus1: 10
+2017-03-21 01:22:48 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus2: 0
+2017-03-21 01:22:48 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:22:48 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus1: 10
+2017-03-21 01:22:48 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus2: 5
+2017-03-21 01:22:48 [INFO ] (BusStop.java:36) - STOP1: Bus3 reached stop 
+2017-03-21 01:22:48 [INFO ] (BusStop.java:36) - STOP1: Bus4 reached stop 
+2017-03-21 01:22:48 [INFO ] (BusStop.java:36) - STOP1: Bus5 reached stop 
+2017-03-21 01:22:48 [INFO ] (BusStop.java:36) - STOP1: Bus6 reached stop 
+2017-03-21 01:22:49 [INFO ] (BusStop.java:66) - STOP1. Bus1 leaved stop.
+2017-03-21 01:22:49 [INFO ] (BusStop.java:38) - STOP1: Bus3 acquired semaphore
+2017-03-21 01:22:49 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:22:49 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus2: 5
+2017-03-21 01:22:49 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus3: 0
+2017-03-21 01:22:49 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:22:49 [INFO ] (BusStop.java:36) - STOP2: Bus1 reached stop 
+2017-03-21 01:22:49 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus2: 5
+2017-03-21 01:22:49 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus3: 4
+2017-03-21 01:22:49 [INFO ] (BusStop.java:38) - STOP2: Bus1 acquired semaphore
+2017-03-21 01:22:49 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:22:49 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus1: 10
+2017-03-21 01:22:49 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 2. Buses on stop: 1
+2017-03-21 01:22:49 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus1: 18
+2017-03-21 01:22:49 [INFO ] (BusStop.java:66) - STOP1. Bus2 leaved stop.
+2017-03-21 01:22:49 [INFO ] (BusStop.java:38) - STOP1: Bus4 acquired semaphore
+2017-03-21 01:22:49 [INFO ] (BusStop.java:36) - STOP9: Bus2 reached stop 
+2017-03-21 01:22:49 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:22:49 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus3: 4
+2017-03-21 01:22:49 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus4: 0
+2017-03-21 01:22:49 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:22:49 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus3: 4
+2017-03-21 01:22:49 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus4: 1
+2017-03-21 01:22:49 [INFO ] (BusStop.java:38) - STOP9: Bus2 acquired semaphore
+2017-03-21 01:22:49 [INFO ] (BusStop.java:41) - STOP9: BusStop locked. Passengers on stop: 14. Buses on stop: 1
+2017-03-21 01:22:49 [INFO ] (BusStop.java:44) - STOP9. Passengers in bus2: 5
+2017-03-21 01:22:49 [INFO ] (BusStop.java:56) - STOP9: BusStop before unlock. Passengers on stop: 12. Buses on stop: 1
+2017-03-21 01:22:49 [INFO ] (BusStop.java:59) - STOP9. Passengers in bus2: 7
+2017-03-21 01:22:50 [INFO ] (BusStop.java:66) - STOP1. Bus3 leaved stop.
+2017-03-21 01:22:50 [INFO ] (BusStop.java:38) - STOP1: Bus5 acquired semaphore
+2017-03-21 01:22:50 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus4: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus5: 0
+2017-03-21 01:22:50 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus4: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus5: 0
+2017-03-21 01:22:50 [INFO ] (BusStop.java:36) - STOP2: Bus3 reached stop 
+2017-03-21 01:22:50 [INFO ] (BusStop.java:38) - STOP2: Bus3 acquired semaphore
+2017-03-21 01:22:50 [INFO ] (BusStop.java:66) - STOP2. Bus1 leaved stop.
+2017-03-21 01:22:50 [INFO ] (BusStop.java:36) - STOP3: Bus1 reached stop 
+2017-03-21 01:22:50 [INFO ] (BusStop.java:38) - STOP3: Bus1 acquired semaphore
+2017-03-21 01:22:50 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus1: 18
+2017-03-21 01:22:50 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus1: 18
+2017-03-21 01:22:50 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 2. Buses on stop: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus3: 4
+2017-03-21 01:22:50 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 1. Buses on stop: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus3: 5
+2017-03-21 01:22:50 [INFO ] (BusStop.java:66) - STOP1. Bus4 leaved stop.
+2017-03-21 01:22:50 [INFO ] (BusStop.java:66) - STOP9. Bus2 leaved stop.
+2017-03-21 01:22:50 [INFO ] (BusStop.java:36) - STOP8: Bus2 reached stop 
+2017-03-21 01:22:50 [INFO ] (BusStop.java:38) - STOP8: Bus2 acquired semaphore
+2017-03-21 01:22:50 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus2: 7
+2017-03-21 01:22:50 [INFO ] (BusStop.java:38) - STOP1: Bus6 acquired semaphore
+2017-03-21 01:22:50 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus2: 15
+2017-03-21 01:22:50 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus5: 0
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus6: 0
+2017-03-21 01:22:50 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus5: 0
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus6: 0
+2017-03-21 01:22:50 [INFO ] (BusStop.java:36) - STOP2: Bus4 reached stop 
+2017-03-21 01:22:50 [INFO ] (BusStop.java:38) - STOP2: Bus4 acquired semaphore
+2017-03-21 01:22:50 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus3: 5
+2017-03-21 01:22:50 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus4: 1
+2017-03-21 01:22:50 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus3: 5
+2017-03-21 01:22:50 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus4: 2
+2017-03-21 01:22:51 [INFO ] (BusStop.java:66) - STOP1. Bus5 leaved stop.
+2017-03-21 01:22:51 [INFO ] (BusStop.java:36) - STOP2: Bus5 reached stop 
+2017-03-21 01:22:51 [INFO ] (BusStop.java:38) - STOP2: Bus5 acquired semaphore
+2017-03-21 01:22:51 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 0. Buses on stop: 3
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus3: 5
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus4: 2
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus5: 0
+2017-03-21 01:22:51 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 0. Buses on stop: 3
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus3: 5
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus4: 2
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus5: 0
+2017-03-21 01:22:51 [INFO ] (BusStop.java:66) - STOP3. Bus1 leaved stop.
+2017-03-21 01:22:51 [INFO ] (BusStop.java:36) - STOP4: Bus1 reached stop 
+2017-03-21 01:22:51 [INFO ] (BusStop.java:38) - STOP4: Bus1 acquired semaphore
+2017-03-21 01:22:51 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 15. Buses on stop: 1
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus1: 18
+2017-03-21 01:22:51 [INFO ] (BusStop.java:66) - STOP2. Bus3 leaved stop.
+2017-03-21 01:22:51 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus1: 22
+2017-03-21 01:22:51 [INFO ] (BusStop.java:36) - STOP5: Bus3 reached stop 
+2017-03-21 01:22:51 [INFO ] (BusStop.java:38) - STOP5: Bus3 acquired semaphore
+2017-03-21 01:22:51 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 8. Buses on stop: 1
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus3: 5
+2017-03-21 01:22:51 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus3: 9
+2017-03-21 01:22:51 [INFO ] (BusStop.java:66) - STOP8. Bus2 leaved stop.
+2017-03-21 01:22:51 [INFO ] (BusStop.java:36) - STOP7: Bus2 reached stop 
+2017-03-21 01:22:51 [INFO ] (BusStop.java:38) - STOP7: Bus2 acquired semaphore
+2017-03-21 01:22:51 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus2: 15
+2017-03-21 01:22:51 [INFO ] (BusStop.java:66) - STOP1. Bus6 leaved stop.
+2017-03-21 01:22:51 [INFO ] (BusStop.java:36) - STOP2: Bus6 reached stop 
+2017-03-21 01:22:51 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 8. Buses on stop: 1
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus2: 16
+2017-03-21 01:22:51 [INFO ] (BusStop.java:38) - STOP2: Bus6 acquired semaphore
+2017-03-21 01:22:51 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 0. Buses on stop: 3
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus4: 2
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus5: 0
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus6: 0
+2017-03-21 01:22:51 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 0. Buses on stop: 3
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus4: 2
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus5: 0
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus6: 0
+2017-03-21 01:22:51 [INFO ] (BusStop.java:66) - STOP2. Bus4 leaved stop.
+2017-03-21 01:22:51 [INFO ] (BusStop.java:36) - STOP3: Bus4 reached stop 
+2017-03-21 01:22:51 [INFO ] (BusStop.java:38) - STOP3: Bus4 acquired semaphore
+2017-03-21 01:22:51 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:22:51 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus4: 2
+2017-03-21 01:22:51 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 1. Buses on stop: 1
+2017-03-21 01:22:51 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus4: 11
+2017-03-21 01:22:52 [INFO ] (BusStop.java:66) - STOP2. Bus5 leaved stop.
+2017-03-21 01:22:52 [INFO ] (BusStop.java:36) - STOP3: Bus5 reached stop 
+2017-03-21 01:22:52 [INFO ] (BusStop.java:38) - STOP3: Bus5 acquired semaphore
+2017-03-21 01:22:52 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus4: 11
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus5: 0
+2017-03-21 01:22:52 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus4: 11
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus5: 0
+2017-03-21 01:22:52 [INFO ] (BusStop.java:66) - STOP4. Bus1 leaved stop.
+2017-03-21 01:22:52 [INFO ] (BusStop.java:36) - STOP5: Bus1 reached stop 
+2017-03-21 01:22:52 [INFO ] (BusStop.java:38) - STOP5: Bus1 acquired semaphore
+2017-03-21 01:22:52 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 4. Buses on stop: 2
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus3: 9
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus1: 22
+2017-03-21 01:22:52 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus3: 25
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus1: 7
+2017-03-21 01:22:52 [INFO ] (BusStop.java:66) - STOP5. Bus3 leaved stop.
+2017-03-21 01:22:52 [INFO ] (BusStop.java:36) - STOP7: Bus3 reached stop 
+2017-03-21 01:22:52 [INFO ] (BusStop.java:38) - STOP7: Bus3 acquired semaphore
+2017-03-21 01:22:52 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 8. Buses on stop: 2
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus2: 16
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus3: 25
+2017-03-21 01:22:52 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 9. Buses on stop: 2
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus2: 20
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus3: 20
+2017-03-21 01:22:52 [INFO ] (BusStop.java:66) - STOP7. Bus2 leaved stop.
+2017-03-21 01:22:52 [INFO ] (BusStop.java:36) - STOP6: Bus2 reached stop 
+2017-03-21 01:22:52 [INFO ] (BusStop.java:38) - STOP6: Bus2 acquired semaphore
+2017-03-21 01:22:52 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 18. Buses on stop: 1
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus2: 20
+2017-03-21 01:22:52 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 14. Buses on stop: 1
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus2: 24
+2017-03-21 01:22:52 [INFO ] (BusStop.java:66) - STOP2. Bus6 leaved stop.
+2017-03-21 01:22:52 [INFO ] (BusStop.java:36) - STOP3: Bus6 reached stop 
+2017-03-21 01:22:52 [INFO ] (BusStop.java:66) - STOP3. Bus4 leaved stop.
+2017-03-21 01:22:52 [INFO ] (BusStop.java:38) - STOP3: Bus6 acquired semaphore
+2017-03-21 01:22:52 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus5: 0
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus6: 0
+2017-03-21 01:22:52 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus5: 0
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus6: 0
+2017-03-21 01:22:52 [INFO ] (BusStop.java:36) - STOP4: Bus4 reached stop 
+2017-03-21 01:22:52 [INFO ] (BusStop.java:38) - STOP4: Bus4 acquired semaphore
+2017-03-21 01:22:52 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:22:52 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus4: 11
+2017-03-21 01:22:52 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 5. Buses on stop: 1
+2017-03-21 01:22:52 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus4: 17
+2017-03-21 01:22:53 [INFO ] (BusStop.java:66) - STOP3. Bus5 leaved stop.
+2017-03-21 01:22:53 [INFO ] (BusStop.java:36) - STOP4: Bus5 reached stop 
+2017-03-21 01:22:53 [INFO ] (BusStop.java:38) - STOP4: Bus5 acquired semaphore
+2017-03-21 01:22:53 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus4: 17
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus5: 0
+2017-03-21 01:22:53 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 4. Buses on stop: 2
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus4: 17
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus5: 1
+2017-03-21 01:22:53 [INFO ] (BusStop.java:66) - STOP5. Bus1 leaved stop.
+2017-03-21 01:22:53 [INFO ] (BusStop.java:36) - STOP6: Bus1 reached stop 
+2017-03-21 01:22:53 [INFO ] (BusStop.java:38) - STOP6: Bus1 acquired semaphore
+2017-03-21 01:22:53 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 14. Buses on stop: 2
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus2: 24
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus1: 7
+2017-03-21 01:22:53 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 9. Buses on stop: 2
+2017-03-21 01:22:53 [INFO ] (BusStop.java:66) - STOP7. Bus3 leaved stop.
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus2: 25
+2017-03-21 01:22:53 [INFO ] (BusStop.java:36) - STOP9: Bus3 reached stop 
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus1: 11
+2017-03-21 01:22:53 [INFO ] (BusStop.java:38) - STOP9: Bus3 acquired semaphore
+2017-03-21 01:22:53 [INFO ] (BusStop.java:41) - STOP9: BusStop locked. Passengers on stop: 12. Buses on stop: 1
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP9. Passengers in bus3: 20
+2017-03-21 01:22:53 [INFO ] (BusStop.java:56) - STOP9: BusStop before unlock. Passengers on stop: 7. Buses on stop: 1
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP9. Passengers in bus3: 25
+2017-03-21 01:22:53 [INFO ] (BusStop.java:66) - STOP6. Bus2 leaved stop.
+2017-03-21 01:22:53 [INFO ] (BusStop.java:36) - STOP5: Bus2 reached stop 
+2017-03-21 01:22:53 [INFO ] (BusStop.java:38) - STOP5: Bus2 acquired semaphore
+2017-03-21 01:22:53 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus2: 25
+2017-03-21 01:22:53 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 6. Buses on stop: 1
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus2: 22
+2017-03-21 01:22:53 [INFO ] (BusStop.java:66) - STOP3. Bus6 leaved stop.
+2017-03-21 01:22:53 [INFO ] (BusStop.java:36) - STOP4: Bus6 reached stop 
+2017-03-21 01:22:53 [INFO ] (BusStop.java:66) - STOP4. Bus4 leaved stop.
+2017-03-21 01:22:53 [INFO ] (BusStop.java:36) - STOP5: Bus4 reached stop 
+2017-03-21 01:22:53 [INFO ] (BusStop.java:38) - STOP4: Bus6 acquired semaphore
+2017-03-21 01:22:53 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 4. Buses on stop: 2
+2017-03-21 01:22:53 [INFO ] (BusStop.java:38) - STOP5: Bus4 acquired semaphore
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus5: 1
+2017-03-21 01:22:53 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 6. Buses on stop: 2
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus6: 0
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus2: 22
+2017-03-21 01:22:53 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus5: 1
+2017-03-21 01:22:53 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus4: 17
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus6: 1
+2017-03-21 01:22:53 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 6. Buses on stop: 2
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus2: 29
+2017-03-21 01:22:53 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus4: 10
+2017-03-21 01:22:54 [INFO ] (BusStop.java:66) - STOP4. Bus5 leaved stop.
+2017-03-21 01:22:54 [INFO ] (BusStop.java:36) - STOP5: Bus5 reached stop 
+2017-03-21 01:22:54 [INFO ] (BusStop.java:38) - STOP5: Bus5 acquired semaphore
+2017-03-21 01:22:54 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 6. Buses on stop: 3
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus2: 29
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus4: 10
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus5: 1
+2017-03-21 01:22:54 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 4. Buses on stop: 3
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus2: 29
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus4: 10
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus5: 3
+2017-03-21 01:22:54 [INFO ] (BusStop.java:66) - STOP6. Bus1 leaved stop.
+2017-03-21 01:22:54 [INFO ] (BusStop.java:36) - STOP7: Bus1 reached stop 
+2017-03-21 01:22:54 [INFO ] (BusStop.java:38) - STOP7: Bus1 acquired semaphore
+2017-03-21 01:22:54 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus1: 11
+2017-03-21 01:22:54 [INFO ] (BusStop.java:66) - STOP9. Bus3 leaved stop.
+2017-03-21 01:22:54 [INFO ] (BusStop.java:36) - STOP3: Bus3 reached stop 
+2017-03-21 01:22:54 [INFO ] (BusStop.java:38) - STOP3: Bus3 acquired semaphore
+2017-03-21 01:22:54 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 1. Buses on stop: 1
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus3: 25
+2017-03-21 01:22:54 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus3: 26
+2017-03-21 01:22:54 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 12. Buses on stop: 1
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus1: 8
+2017-03-21 01:22:54 [INFO ] (BusStop.java:66) - STOP5. Bus2 leaved stop.
+2017-03-21 01:22:54 [INFO ] (BusStop.java:36) - STOP4: Bus2 reached stop 
+2017-03-21 01:22:54 [INFO ] (BusStop.java:38) - STOP4: Bus2 acquired semaphore
+2017-03-21 01:22:54 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus6: 1
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus2: 29
+2017-03-21 01:22:54 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus6: 10
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus2: 20
+2017-03-21 01:22:54 [INFO ] (BusStop.java:66) - STOP4. Bus6 leaved stop.
+2017-03-21 01:22:54 [INFO ] (BusStop.java:36) - STOP5: Bus6 reached stop 
+2017-03-21 01:22:54 [INFO ] (BusStop.java:38) - STOP5: Bus6 acquired semaphore
+2017-03-21 01:22:54 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 4. Buses on stop: 3
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus4: 10
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus5: 3
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus6: 10
+2017-03-21 01:22:54 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 2. Buses on stop: 3
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus4: 12
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus5: 3
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus6: 10
+2017-03-21 01:22:54 [INFO ] (BusStop.java:66) - STOP5. Bus4 leaved stop.
+2017-03-21 01:22:54 [INFO ] (BusStop.java:36) - STOP6: Bus4 reached stop 
+2017-03-21 01:22:54 [INFO ] (BusStop.java:38) - STOP6: Bus4 acquired semaphore
+2017-03-21 01:22:54 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:22:54 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus4: 12
+2017-03-21 01:22:54 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:22:54 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus4: 10
+2017-03-21 01:22:55 [INFO ] (BusStop.java:66) - STOP5. Bus5 leaved stop.
+2017-03-21 01:22:55 [INFO ] (BusStop.java:36) - STOP6: Bus5 reached stop 
+2017-03-21 01:22:55 [INFO ] (BusStop.java:38) - STOP6: Bus5 acquired semaphore
+2017-03-21 01:22:55 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 11. Buses on stop: 2
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus4: 10
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus5: 3
+2017-03-21 01:22:55 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 2. Buses on stop: 2
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus4: 10
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus5: 12
+2017-03-21 01:22:55 [INFO ] (BusStop.java:66) - STOP3. Bus3 leaved stop.
+2017-03-21 01:22:55 [INFO ] (BusStop.java:36) - STOP4: Bus3 reached stop 
+2017-03-21 01:22:55 [INFO ] (BusStop.java:66) - STOP7. Bus1 leaved stop.
+2017-03-21 01:22:55 [INFO ] (BusStop.java:36) - STOP8: Bus1 reached stop 
+2017-03-21 01:22:55 [INFO ] (BusStop.java:38) - STOP8: Bus1 acquired semaphore
+2017-03-21 01:22:55 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus1: 8
+2017-03-21 01:22:55 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus1: 7
+2017-03-21 01:22:55 [INFO ] (BusStop.java:38) - STOP4: Bus3 acquired semaphore
+2017-03-21 01:22:55 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus2: 20
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus3: 26
+2017-03-21 01:22:55 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus2: 27
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus3: 17
+2017-03-21 01:22:55 [INFO ] (BusStop.java:66) - STOP4. Bus2 leaved stop.
+2017-03-21 01:22:55 [INFO ] (BusStop.java:36) - STOP3: Bus2 reached stop 
+2017-03-21 01:22:55 [INFO ] (BusStop.java:38) - STOP3: Bus2 acquired semaphore
+2017-03-21 01:22:55 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus2: 27
+2017-03-21 01:22:55 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 2. Buses on stop: 1
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus2: 25
+2017-03-21 01:22:55 [INFO ] (BusStop.java:66) - STOP5. Bus6 leaved stop.
+2017-03-21 01:22:55 [INFO ] (BusStop.java:36) - STOP6: Bus6 reached stop 
+2017-03-21 01:22:55 [INFO ] (BusStop.java:38) - STOP6: Bus6 acquired semaphore
+2017-03-21 01:22:55 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 2. Buses on stop: 3
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus4: 10
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus5: 12
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus6: 10
+2017-03-21 01:22:55 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 3. Buses on stop: 3
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus4: 17
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus5: 13
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus6: 1
+2017-03-21 01:22:55 [INFO ] (BusStop.java:66) - STOP6. Bus4 leaved stop.
+2017-03-21 01:22:55 [INFO ] (BusStop.java:36) - STOP7: Bus4 reached stop 
+2017-03-21 01:22:55 [INFO ] (BusStop.java:38) - STOP7: Bus4 acquired semaphore
+2017-03-21 01:22:55 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 12. Buses on stop: 1
+2017-03-21 01:22:55 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus4: 17
+2017-03-21 01:22:55 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:22:55 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus4: 18
+2017-03-21 01:22:56 [INFO ] (BusStop.java:66) - STOP6. Bus5 leaved stop.
+2017-03-21 01:22:56 [INFO ] (BusStop.java:36) - STOP7: Bus5 reached stop 
+2017-03-21 01:22:56 [INFO ] (BusStop.java:38) - STOP7: Bus5 acquired semaphore
+2017-03-21 01:22:56 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 11. Buses on stop: 2
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus4: 18
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus5: 13
+2017-03-21 01:22:56 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 7. Buses on stop: 2
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus4: 18
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus5: 17
+2017-03-21 01:22:56 [INFO ] (BusStop.java:66) - STOP8. Bus1 leaved stop.
+2017-03-21 01:22:56 [INFO ] (BusStop.java:36) - STOP8: Bus1 reached stop 
+2017-03-21 01:22:56 [INFO ] (BusStop.java:38) - STOP8: Bus1 acquired semaphore
+2017-03-21 01:22:56 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus1: 7
+2017-03-21 01:22:56 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus1: 7
+2017-03-21 01:22:56 [INFO ] (BusStop.java:66) - STOP4. Bus3 leaved stop.
+2017-03-21 01:22:56 [INFO ] (BusStop.java:36) - STOP6: Bus3 reached stop 
+2017-03-21 01:22:56 [INFO ] (BusStop.java:38) - STOP6: Bus3 acquired semaphore
+2017-03-21 01:22:56 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus6: 1
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus3: 17
+2017-03-21 01:22:56 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus6: 4
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus3: 16
+2017-03-21 01:22:56 [INFO ] (BusStop.java:66) - STOP3. Bus2 leaved stop.
+2017-03-21 01:22:56 [INFO ] (BusStop.java:36) - STOP2: Bus2 reached stop 
+2017-03-21 01:22:56 [INFO ] (BusStop.java:38) - STOP2: Bus2 acquired semaphore
+2017-03-21 01:22:56 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus2: 25
+2017-03-21 01:22:56 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus2: 14
+2017-03-21 01:22:56 [INFO ] (BusStop.java:66) - STOP6. Bus6 leaved stop.
+2017-03-21 01:22:56 [INFO ] (BusStop.java:36) - STOP7: Bus6 reached stop 
+2017-03-21 01:22:56 [INFO ] (BusStop.java:38) - STOP7: Bus6 acquired semaphore
+2017-03-21 01:22:56 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 7. Buses on stop: 3
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus4: 18
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus5: 17
+2017-03-21 01:22:56 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus6: 4
+2017-03-21 01:22:56 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 6. Buses on stop: 3
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus4: 19
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus5: 19
+2017-03-21 01:22:56 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus6: 2
+2017-03-21 01:22:56 [INFO ] (BusStop.java:66) - STOP7. Bus4 leaved stop.
+2017-03-21 01:22:56 [INFO ] (BusStop.java:36) - STOP8: Bus4 reached stop 
+2017-03-21 01:22:57 [INFO ] (BusStop.java:66) - STOP7. Bus5 leaved stop.
+2017-03-21 01:22:57 [INFO ] (BusStop.java:36) - STOP8: Bus5 reached stop 
+2017-03-21 01:22:57 [INFO ] (BusStop.java:66) - STOP8. Bus1 leaved stop.
+2017-03-21 01:22:57 [INFO ] (BusStop.java:36) - STOP10: Bus1 reached stop 
+2017-03-21 01:22:57 [INFO ] (BusStop.java:38) - STOP8: Bus4 acquired semaphore
+2017-03-21 01:22:57 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:22:57 [INFO ] (BusStop.java:38) - STOP10: Bus1 acquired semaphore
+2017-03-21 01:22:57 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus4: 19
+2017-03-21 01:22:57 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:22:57 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 12. Buses on stop: 1
+2017-03-21 01:22:57 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus1: 7
+2017-03-21 01:22:57 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus4: 11
+2017-03-21 01:22:57 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 5. Buses on stop: 1
+2017-03-21 01:22:57 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus1: 11
+2017-03-21 01:22:57 [INFO ] (BusStop.java:66) - STOP6. Bus3 leaved stop.
+2017-03-21 01:22:57 [INFO ] (BusStop.java:36) - STOP10: Bus3 reached stop 
+2017-03-21 01:22:57 [INFO ] (BusStop.java:38) - STOP10: Bus3 acquired semaphore
+2017-03-21 01:22:57 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:22:57 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus1: 11
+2017-03-21 01:22:57 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus3: 16
+2017-03-21 01:22:57 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:22:57 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus1: 11
+2017-03-21 01:22:57 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus3: 18
+2017-03-21 01:22:57 [INFO ] (BusStop.java:66) - STOP2. Bus2 leaved stop.
+2017-03-21 01:22:57 [INFO ] (BusStop.java:36) - STOP1: Bus2 reached stop 
+2017-03-21 01:22:57 [INFO ] (BusStop.java:38) - STOP1: Bus2 acquired semaphore
+2017-03-21 01:22:57 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:22:57 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus2: 14
+2017-03-21 01:22:57 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 1. Buses on stop: 1
+2017-03-21 01:22:57 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus2: 13
+2017-03-21 01:22:57 [INFO ] (BusStop.java:66) - STOP7. Bus6 leaved stop.
+2017-03-21 01:22:57 [INFO ] (BusStop.java:36) - STOP8: Bus6 reached stop 
+2017-03-21 01:22:58 [INFO ] (BusStop.java:66) - STOP8. Bus4 leaved stop.
+2017-03-21 01:22:58 [INFO ] (BusStop.java:36) - STOP8: Bus4 reached stop 
+2017-03-21 01:22:58 [INFO ] (BusStop.java:38) - STOP8: Bus5 acquired semaphore
+2017-03-21 01:22:58 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 12. Buses on stop: 1
+2017-03-21 01:22:58 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus5: 19
+2017-03-21 01:22:58 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 16. Buses on stop: 1
+2017-03-21 01:22:58 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus5: 15
+2017-03-21 01:22:58 [INFO ] (BusStop.java:66) - STOP10. Bus1 leaved stop.
+2017-03-21 01:22:58 [INFO ] (BusStop.java:66) - STOP10. Bus3 leaved stop.
+2017-03-21 01:22:58 [INFO ] (BusStop.java:36) - STOP8: Bus3 reached stop 
+2017-03-21 01:22:58 [INFO ] (BusStop.java:66) - STOP1. Bus2 leaved stop.
+2017-03-21 01:22:59 [INFO ] (BusStop.java:66) - STOP8. Bus5 leaved stop.
+2017-03-21 01:22:59 [INFO ] (BusStop.java:38) - STOP8: Bus6 acquired semaphore
+2017-03-21 01:22:59 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 16. Buses on stop: 1
+2017-03-21 01:22:59 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus6: 2
+2017-03-21 01:22:59 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 15. Buses on stop: 1
+2017-03-21 01:22:59 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus6: 3
+2017-03-21 01:22:59 [INFO ] (BusStop.java:36) - STOP8: Bus5 reached stop 
+2017-03-21 01:23:00 [INFO ] (BusStop.java:66) - STOP8. Bus6 leaved stop.
+2017-03-21 01:23:00 [INFO ] (BusStop.java:38) - STOP8: Bus4 acquired semaphore
+2017-03-21 01:23:00 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 15. Buses on stop: 1
+2017-03-21 01:23:00 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus4: 11
+2017-03-21 01:23:00 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 12. Buses on stop: 1
+2017-03-21 01:23:00 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus4: 14
+2017-03-21 01:23:00 [INFO ] (BusStop.java:36) - STOP8: Bus6 reached stop 
+2017-03-21 01:23:01 [INFO ] (BusStop.java:66) - STOP8. Bus4 leaved stop.
+2017-03-21 01:23:01 [INFO ] (BusStop.java:38) - STOP8: Bus3 acquired semaphore
+2017-03-21 01:23:01 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 12. Buses on stop: 1
+2017-03-21 01:23:01 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus3: 18
+2017-03-21 01:23:01 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:23:01 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus3: 27
+2017-03-21 01:23:01 [INFO ] (BusStop.java:36) - STOP10: Bus4 reached stop 
+2017-03-21 01:23:01 [INFO ] (BusStop.java:38) - STOP10: Bus4 acquired semaphore
+2017-03-21 01:23:01 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:23:01 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus4: 14
+2017-03-21 01:23:01 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 5. Buses on stop: 1
+2017-03-21 01:23:01 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus4: 12
+2017-03-21 01:23:02 [INFO ] (BusStop.java:66) - STOP8. Bus3 leaved stop.
+2017-03-21 01:23:02 [INFO ] (BusStop.java:38) - STOP8: Bus5 acquired semaphore
+2017-03-21 01:23:02 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:23:02 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus5: 15
+2017-03-21 01:23:02 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:23:02 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus5: 14
+2017-03-21 01:23:02 [INFO ] (BusStop.java:66) - STOP10. Bus4 leaved stop.
+2017-03-21 01:23:03 [INFO ] (BusStop.java:66) - STOP8. Bus5 leaved stop.
+2017-03-21 01:23:03 [INFO ] (BusStop.java:36) - STOP10: Bus5 reached stop 
+2017-03-21 01:23:03 [INFO ] (BusStop.java:38) - STOP8: Bus6 acquired semaphore
+2017-03-21 01:23:03 [INFO ] (BusStop.java:38) - STOP10: Bus5 acquired semaphore
+2017-03-21 01:23:03 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:23:03 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus6: 3
+2017-03-21 01:23:03 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 5. Buses on stop: 1
+2017-03-21 01:23:03 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:23:03 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus5: 14
+2017-03-21 01:23:03 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 5. Buses on stop: 1
+2017-03-21 01:23:03 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus6: 3
+2017-03-21 01:23:03 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus5: 14
+2017-03-21 01:23:04 [INFO ] (BusStop.java:66) - STOP10. Bus5 leaved stop.
+2017-03-21 01:23:04 [INFO ] (BusStop.java:66) - STOP8. Bus6 leaved stop.
+2017-03-21 01:23:04 [INFO ] (BusStop.java:36) - STOP10: Bus6 reached stop 
+2017-03-21 01:23:04 [INFO ] (BusStop.java:38) - STOP10: Bus6 acquired semaphore
+2017-03-21 01:23:04 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 5. Buses on stop: 1
+2017-03-21 01:23:04 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus6: 3
+2017-03-21 01:23:04 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:23:04 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus6: 5
+2017-03-21 01:23:05 [INFO ] (BusStop.java:66) - STOP10. Bus6 leaved stop.
+2017-03-21 01:23:05 [INFO ] (RouteMain.java:28) - 381 passengers were transported.
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP2, capacity: 3, passengers: 10
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP3, capacity: 2, passengers: 10
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP4, capacity: 2, passengers: 15
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP5, capacity: 4, passengers: 8
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP6, capacity: 3, passengers: 18
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP7, capacity: 3, passengers: 9
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP8, capacity: 1, passengers: 11
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP9, capacity: 3, passengers: 14
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:37) - Added BusStop: STOP10, capacity: 3, passengers: 9
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:59) - Added bus: 1 [STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:59) - Added bus: 2 [STOP1, STOP9, STOP8, STOP7, STOP6, STOP5, STOP4, STOP3, STOP2, STOP1]
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:59) - Added bus: 3 [STOP1, STOP2, STOP5, STOP7, STOP9, STOP3, STOP4, STOP6, STOP10, STOP8]
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:59) - Added bus: 4 [STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:59) - Added bus: 5 [STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-21 01:25:56 [INFO ] (BusCreator.java:59) - Added bus: 6 [STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-21 01:25:56 [INFO ] (BusStop.java:36) - STOP1: Bus1 reached stop 
+2017-03-21 01:25:56 [INFO ] (BusStop.java:38) - STOP1: Bus1 acquired semaphore
+2017-03-21 01:25:56 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 20. Buses on stop: 1
+2017-03-21 01:25:56 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus1: 0
+2017-03-21 01:25:56 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 15. Buses on stop: 1
+2017-03-21 01:25:56 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus1: 5
+2017-03-21 01:25:56 [INFO ] (BusStop.java:36) - STOP1: Bus2 reached stop 
+2017-03-21 01:25:56 [INFO ] (BusStop.java:38) - STOP1: Bus2 acquired semaphore
+2017-03-21 01:25:56 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 15. Buses on stop: 2
+2017-03-21 01:25:56 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus1: 5
+2017-03-21 01:25:56 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus2: 0
+2017-03-21 01:25:56 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 2. Buses on stop: 2
+2017-03-21 01:25:56 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus1: 5
+2017-03-21 01:25:56 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus2: 13
+2017-03-21 01:25:56 [INFO ] (BusStop.java:36) - STOP1: Bus3 reached stop 
+2017-03-21 01:25:56 [INFO ] (BusStop.java:36) - STOP1: Bus4 reached stop 
+2017-03-21 01:25:56 [INFO ] (BusStop.java:36) - STOP1: Bus5 reached stop 
+2017-03-21 01:25:56 [INFO ] (BusStop.java:36) - STOP1: Bus6 reached stop 
+2017-03-21 01:25:57 [INFO ] (BusStop.java:66) - STOP1. Bus1 leaved stop.
+2017-03-21 01:25:57 [INFO ] (BusStop.java:38) - STOP1: Bus3 acquired semaphore
+2017-03-21 01:25:57 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 2. Buses on stop: 2
+2017-03-21 01:25:57 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus2: 13
+2017-03-21 01:25:57 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus3: 0
+2017-03-21 01:25:57 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:25:57 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus2: 13
+2017-03-21 01:25:57 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus3: 1
+2017-03-21 01:25:57 [INFO ] (BusStop.java:36) - STOP2: Bus1 reached stop 
+2017-03-21 01:25:57 [INFO ] (BusStop.java:38) - STOP2: Bus1 acquired semaphore
+2017-03-21 01:25:57 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:25:57 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus1: 5
+2017-03-21 01:25:57 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 7. Buses on stop: 1
+2017-03-21 01:25:57 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus1: 8
+2017-03-21 01:25:57 [INFO ] (BusStop.java:66) - STOP1. Bus2 leaved stop.
+2017-03-21 01:25:57 [INFO ] (BusStop.java:38) - STOP1: Bus4 acquired semaphore
+2017-03-21 01:25:57 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:25:57 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus3: 1
+2017-03-21 01:25:57 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus4: 0
+2017-03-21 01:25:57 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:25:57 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus3: 1
+2017-03-21 01:25:57 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus4: 1
+2017-03-21 01:25:57 [INFO ] (BusStop.java:36) - STOP9: Bus2 reached stop 
+2017-03-21 01:25:57 [INFO ] (BusStop.java:38) - STOP9: Bus2 acquired semaphore
+2017-03-21 01:25:57 [INFO ] (BusStop.java:41) - STOP9: BusStop locked. Passengers on stop: 14. Buses on stop: 1
+2017-03-21 01:25:57 [INFO ] (BusStop.java:44) - STOP9. Passengers in bus2: 13
+2017-03-21 01:25:57 [INFO ] (BusStop.java:56) - STOP9: BusStop before unlock. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:25:57 [INFO ] (BusStop.java:59) - STOP9. Passengers in bus2: 24
+2017-03-21 01:25:58 [INFO ] (BusStop.java:66) - STOP1. Bus3 leaved stop.
+2017-03-21 01:25:58 [INFO ] (BusStop.java:38) - STOP1: Bus5 acquired semaphore
+2017-03-21 01:25:58 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus4: 1
+2017-03-21 01:25:58 [INFO ] (BusStop.java:36) - STOP2: Bus3 reached stop 
+2017-03-21 01:25:58 [INFO ] (BusStop.java:38) - STOP2: Bus3 acquired semaphore
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus5: 0
+2017-03-21 01:25:58 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus4: 1
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus5: 0
+2017-03-21 01:25:58 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 7. Buses on stop: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus1: 8
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus3: 1
+2017-03-21 01:25:58 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 6. Buses on stop: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus1: 8
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus3: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:66) - STOP2. Bus1 leaved stop.
+2017-03-21 01:25:58 [INFO ] (BusStop.java:36) - STOP3: Bus1 reached stop 
+2017-03-21 01:25:58 [INFO ] (BusStop.java:38) - STOP3: Bus1 acquired semaphore
+2017-03-21 01:25:58 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus1: 8
+2017-03-21 01:25:58 [INFO ] (BusStop.java:66) - STOP1. Bus4 leaved stop.
+2017-03-21 01:25:58 [INFO ] (BusStop.java:36) - STOP2: Bus4 reached stop 
+2017-03-21 01:25:58 [INFO ] (BusStop.java:38) - STOP2: Bus4 acquired semaphore
+2017-03-21 01:25:58 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 6. Buses on stop: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus3: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus4: 1
+2017-03-21 01:25:58 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus3: 3
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus4: 5
+2017-03-21 01:25:58 [INFO ] (BusStop.java:38) - STOP1: Bus6 acquired semaphore
+2017-03-21 01:25:58 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus5: 0
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus6: 0
+2017-03-21 01:25:58 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus5: 0
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus6: 0
+2017-03-21 01:25:58 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus1: 15
+2017-03-21 01:25:58 [INFO ] (BusStop.java:66) - STOP9. Bus2 leaved stop.
+2017-03-21 01:25:58 [INFO ] (BusStop.java:36) - STOP8: Bus2 reached stop 
+2017-03-21 01:25:58 [INFO ] (BusStop.java:38) - STOP8: Bus2 acquired semaphore
+2017-03-21 01:25:58 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:25:58 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus2: 24
+2017-03-21 01:25:58 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 15. Buses on stop: 1
+2017-03-21 01:25:58 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus2: 20
+2017-03-21 01:25:59 [INFO ] (BusStop.java:66) - STOP1. Bus5 leaved stop.
+2017-03-21 01:25:59 [INFO ] (BusStop.java:36) - STOP2: Bus5 reached stop 
+2017-03-21 01:25:59 [INFO ] (BusStop.java:38) - STOP2: Bus5 acquired semaphore
+2017-03-21 01:25:59 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 1. Buses on stop: 3
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus3: 3
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus4: 5
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus5: 0
+2017-03-21 01:25:59 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 0. Buses on stop: 3
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus3: 3
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus4: 5
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus5: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:66) - STOP2. Bus3 leaved stop.
+2017-03-21 01:25:59 [INFO ] (BusStop.java:36) - STOP5: Bus3 reached stop 
+2017-03-21 01:25:59 [INFO ] (BusStop.java:38) - STOP5: Bus3 acquired semaphore
+2017-03-21 01:25:59 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 8. Buses on stop: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus3: 3
+2017-03-21 01:25:59 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus3: 7
+2017-03-21 01:25:59 [INFO ] (BusStop.java:66) - STOP2. Bus4 leaved stop.
+2017-03-21 01:25:59 [INFO ] (BusStop.java:36) - STOP3: Bus4 reached stop 
+2017-03-21 01:25:59 [INFO ] (BusStop.java:38) - STOP3: Bus4 acquired semaphore
+2017-03-21 01:25:59 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus1: 15
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus4: 5
+2017-03-21 01:25:59 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 2. Buses on stop: 2
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus1: 15
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus4: 6
+2017-03-21 01:25:59 [INFO ] (BusStop.java:66) - STOP1. Bus6 leaved stop.
+2017-03-21 01:25:59 [INFO ] (BusStop.java:66) - STOP3. Bus1 leaved stop.
+2017-03-21 01:25:59 [INFO ] (BusStop.java:36) - STOP2: Bus6 reached stop 
+2017-03-21 01:25:59 [INFO ] (BusStop.java:36) - STOP4: Bus1 reached stop 
+2017-03-21 01:25:59 [INFO ] (BusStop.java:38) - STOP4: Bus1 acquired semaphore
+2017-03-21 01:25:59 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 15. Buses on stop: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus1: 15
+2017-03-21 01:25:59 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 18. Buses on stop: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus1: 12
+2017-03-21 01:25:59 [INFO ] (BusStop.java:38) - STOP2: Bus6 acquired semaphore
+2017-03-21 01:25:59 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus5: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus6: 0
+2017-03-21 01:25:59 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus5: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus6: 0
+2017-03-21 01:25:59 [INFO ] (BusStop.java:66) - STOP8. Bus2 leaved stop.
+2017-03-21 01:25:59 [INFO ] (BusStop.java:36) - STOP7: Bus2 reached stop 
+2017-03-21 01:25:59 [INFO ] (BusStop.java:38) - STOP7: Bus2 acquired semaphore
+2017-03-21 01:25:59 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus2: 20
+2017-03-21 01:25:59 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:25:59 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus2: 26
+2017-03-21 01:26:00 [INFO ] (BusStop.java:66) - STOP2. Bus5 leaved stop.
+2017-03-21 01:26:00 [INFO ] (BusStop.java:36) - STOP3: Bus5 reached stop 
+2017-03-21 01:26:00 [INFO ] (BusStop.java:38) - STOP3: Bus5 acquired semaphore
+2017-03-21 01:26:00 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 2. Buses on stop: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus4: 6
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus5: 1
+2017-03-21 01:26:00 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 2. Buses on stop: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus4: 6
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus5: 1
+2017-03-21 01:26:00 [INFO ] (BusStop.java:66) - STOP5. Bus3 leaved stop.
+2017-03-21 01:26:00 [INFO ] (BusStop.java:36) - STOP7: Bus3 reached stop 
+2017-03-21 01:26:00 [INFO ] (BusStop.java:38) - STOP7: Bus3 acquired semaphore
+2017-03-21 01:26:00 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus2: 26
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus3: 7
+2017-03-21 01:26:00 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus2: 28
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus3: 7
+2017-03-21 01:26:00 [INFO ] (BusStop.java:66) - STOP3. Bus4 leaved stop.
+2017-03-21 01:26:00 [INFO ] (BusStop.java:36) - STOP4: Bus4 reached stop 
+2017-03-21 01:26:00 [INFO ] (BusStop.java:38) - STOP4: Bus4 acquired semaphore
+2017-03-21 01:26:00 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 18. Buses on stop: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus1: 12
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus4: 6
+2017-03-21 01:26:00 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 12. Buses on stop: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus1: 14
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus4: 10
+2017-03-21 01:26:00 [INFO ] (BusStop.java:66) - STOP4. Bus1 leaved stop.
+2017-03-21 01:26:00 [INFO ] (BusStop.java:36) - STOP5: Bus1 reached stop 
+2017-03-21 01:26:00 [INFO ] (BusStop.java:38) - STOP5: Bus1 acquired semaphore
+2017-03-21 01:26:00 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus1: 14
+2017-03-21 01:26:00 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus1: 14
+2017-03-21 01:26:00 [INFO ] (BusStop.java:66) - STOP2. Bus6 leaved stop.
+2017-03-21 01:26:00 [INFO ] (BusStop.java:36) - STOP3: Bus6 reached stop 
+2017-03-21 01:26:00 [INFO ] (BusStop.java:38) - STOP3: Bus6 acquired semaphore
+2017-03-21 01:26:00 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 2. Buses on stop: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus5: 1
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus6: 0
+2017-03-21 01:26:00 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 0. Buses on stop: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus5: 1
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus6: 2
+2017-03-21 01:26:00 [INFO ] (BusStop.java:66) - STOP7. Bus2 leaved stop.
+2017-03-21 01:26:00 [INFO ] (BusStop.java:36) - STOP6: Bus2 reached stop 
+2017-03-21 01:26:00 [INFO ] (BusStop.java:38) - STOP6: Bus2 acquired semaphore
+2017-03-21 01:26:00 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 18. Buses on stop: 1
+2017-03-21 01:26:00 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus2: 28
+2017-03-21 01:26:00 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 5. Buses on stop: 1
+2017-03-21 01:26:00 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus2: 41
+2017-03-21 01:26:01 [INFO ] (BusStop.java:66) - STOP3. Bus5 leaved stop.
+2017-03-21 01:26:01 [INFO ] (BusStop.java:36) - STOP4: Bus5 reached stop 
+2017-03-21 01:26:01 [INFO ] (BusStop.java:38) - STOP4: Bus5 acquired semaphore
+2017-03-21 01:26:01 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 12. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus4: 10
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus5: 1
+2017-03-21 01:26:01 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 8. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus4: 10
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus5: 5
+2017-03-21 01:26:01 [INFO ] (BusStop.java:66) - STOP7. Bus3 leaved stop.
+2017-03-21 01:26:01 [INFO ] (BusStop.java:36) - STOP9: Bus3 reached stop 
+2017-03-21 01:26:01 [INFO ] (BusStop.java:38) - STOP9: Bus3 acquired semaphore
+2017-03-21 01:26:01 [INFO ] (BusStop.java:41) - STOP9: BusStop locked. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP9. Passengers in bus3: 7
+2017-03-21 01:26:01 [INFO ] (BusStop.java:56) - STOP9: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP9. Passengers in bus3: 6
+2017-03-21 01:26:01 [INFO ] (BusStop.java:66) - STOP4. Bus4 leaved stop.
+2017-03-21 01:26:01 [INFO ] (BusStop.java:36) - STOP5: Bus4 reached stop 
+2017-03-21 01:26:01 [INFO ] (BusStop.java:38) - STOP5: Bus4 acquired semaphore
+2017-03-21 01:26:01 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 4. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus1: 14
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus4: 10
+2017-03-21 01:26:01 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 4. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus1: 19
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus4: 5
+2017-03-21 01:26:01 [INFO ] (BusStop.java:66) - STOP5. Bus1 leaved stop.
+2017-03-21 01:26:01 [INFO ] (BusStop.java:36) - STOP6: Bus1 reached stop 
+2017-03-21 01:26:01 [INFO ] (BusStop.java:38) - STOP6: Bus1 acquired semaphore
+2017-03-21 01:26:01 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus2: 41
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus1: 19
+2017-03-21 01:26:01 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 9. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus2: 41
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus1: 15
+2017-03-21 01:26:01 [INFO ] (BusStop.java:66) - STOP3. Bus6 leaved stop.
+2017-03-21 01:26:01 [INFO ] (BusStop.java:36) - STOP4: Bus6 reached stop 
+2017-03-21 01:26:01 [INFO ] (BusStop.java:38) - STOP4: Bus6 acquired semaphore
+2017-03-21 01:26:01 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 8. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus5: 5
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus6: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus5: 5
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus6: 9
+2017-03-21 01:26:01 [INFO ] (BusStop.java:66) - STOP6. Bus2 leaved stop.
+2017-03-21 01:26:01 [INFO ] (BusStop.java:36) - STOP5: Bus2 reached stop 
+2017-03-21 01:26:01 [INFO ] (BusStop.java:38) - STOP5: Bus2 acquired semaphore
+2017-03-21 01:26:01 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 4. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus4: 5
+2017-03-21 01:26:01 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus2: 41
+2017-03-21 01:26:01 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus4: 26
+2017-03-21 01:26:01 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus2: 19
+2017-03-21 01:26:02 [INFO ] (BusStop.java:66) - STOP4. Bus5 leaved stop.
+2017-03-21 01:26:02 [INFO ] (BusStop.java:36) - STOP5: Bus5 reached stop 
+2017-03-21 01:26:02 [INFO ] (BusStop.java:38) - STOP5: Bus5 acquired semaphore
+2017-03-21 01:26:02 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 5. Buses on stop: 3
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus4: 26
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus2: 19
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus5: 5
+2017-03-21 01:26:02 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 2. Buses on stop: 3
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus4: 27
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus2: 19
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus5: 7
+2017-03-21 01:26:02 [INFO ] (BusStop.java:66) - STOP9. Bus3 leaved stop.
+2017-03-21 01:26:02 [INFO ] (BusStop.java:36) - STOP3: Bus3 reached stop 
+2017-03-21 01:26:02 [INFO ] (BusStop.java:38) - STOP3: Bus3 acquired semaphore
+2017-03-21 01:26:02 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus3: 6
+2017-03-21 01:26:02 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus3: 6
+2017-03-21 01:26:02 [INFO ] (BusStop.java:66) - STOP5. Bus4 leaved stop.
+2017-03-21 01:26:02 [INFO ] (BusStop.java:36) - STOP6: Bus4 reached stop 
+2017-03-21 01:26:02 [INFO ] (BusStop.java:38) - STOP6: Bus4 acquired semaphore
+2017-03-21 01:26:02 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 9. Buses on stop: 2
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus1: 15
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus4: 27
+2017-03-21 01:26:02 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus1: 22
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus4: 24
+2017-03-21 01:26:02 [INFO ] (BusStop.java:66) - STOP6. Bus1 leaved stop.
+2017-03-21 01:26:02 [INFO ] (BusStop.java:36) - STOP7: Bus1 reached stop 
+2017-03-21 01:26:02 [INFO ] (BusStop.java:38) - STOP7: Bus1 acquired semaphore
+2017-03-21 01:26:02 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 1. Buses on stop: 1
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus1: 22
+2017-03-21 01:26:02 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus1: 14
+2017-03-21 01:26:02 [INFO ] (BusStop.java:66) - STOP4. Bus6 leaved stop.
+2017-03-21 01:26:02 [INFO ] (BusStop.java:36) - STOP5: Bus6 reached stop 
+2017-03-21 01:26:02 [INFO ] (BusStop.java:38) - STOP5: Bus6 acquired semaphore
+2017-03-21 01:26:02 [INFO ] (BusStop.java:41) - STOP5: BusStop locked. Passengers on stop: 2. Buses on stop: 3
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus2: 19
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus5: 7
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP5. Passengers in bus6: 9
+2017-03-21 01:26:02 [INFO ] (BusStop.java:56) - STOP5: BusStop before unlock. Passengers on stop: 4. Buses on stop: 3
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus2: 19
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus5: 9
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP5. Passengers in bus6: 5
+2017-03-21 01:26:02 [INFO ] (BusStop.java:66) - STOP5. Bus2 leaved stop.
+2017-03-21 01:26:02 [INFO ] (BusStop.java:36) - STOP4: Bus2 reached stop 
+2017-03-21 01:26:02 [INFO ] (BusStop.java:38) - STOP4: Bus2 acquired semaphore
+2017-03-21 01:26:02 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 1. Buses on stop: 1
+2017-03-21 01:26:02 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus2: 19
+2017-03-21 01:26:02 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:26:02 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus2: 17
+2017-03-21 01:26:03 [INFO ] (BusStop.java:66) - STOP5. Bus5 leaved stop.
+2017-03-21 01:26:03 [INFO ] (BusStop.java:36) - STOP6: Bus5 reached stop 
+2017-03-21 01:26:03 [INFO ] (BusStop.java:38) - STOP6: Bus5 acquired semaphore
+2017-03-21 01:26:03 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus4: 24
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus5: 9
+2017-03-21 01:26:03 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus4: 26
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus5: 7
+2017-03-21 01:26:03 [INFO ] (BusStop.java:66) - STOP3. Bus3 leaved stop.
+2017-03-21 01:26:03 [INFO ] (BusStop.java:36) - STOP4: Bus3 reached stop 
+2017-03-21 01:26:03 [INFO ] (BusStop.java:38) - STOP4: Bus3 acquired semaphore
+2017-03-21 01:26:03 [INFO ] (BusStop.java:41) - STOP4: BusStop locked. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus2: 17
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP4. Passengers in bus3: 6
+2017-03-21 01:26:03 [INFO ] (BusStop.java:56) - STOP4: BusStop before unlock. Passengers on stop: 2. Buses on stop: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus2: 18
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP4. Passengers in bus3: 6
+2017-03-21 01:26:03 [INFO ] (BusStop.java:66) - STOP6. Bus4 leaved stop.
+2017-03-21 01:26:03 [INFO ] (BusStop.java:36) - STOP7: Bus4 reached stop 
+2017-03-21 01:26:03 [INFO ] (BusStop.java:38) - STOP7: Bus4 acquired semaphore
+2017-03-21 01:26:03 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 9. Buses on stop: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus1: 14
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus4: 26
+2017-03-21 01:26:03 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 14. Buses on stop: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus1: 17
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus4: 18
+2017-03-21 01:26:03 [INFO ] (BusStop.java:66) - STOP7. Bus1 leaved stop.
+2017-03-21 01:26:03 [INFO ] (BusStop.java:36) - STOP8: Bus1 reached stop 
+2017-03-21 01:26:03 [INFO ] (BusStop.java:38) - STOP8: Bus1 acquired semaphore
+2017-03-21 01:26:03 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 15. Buses on stop: 1
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus1: 17
+2017-03-21 01:26:03 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus1: 21
+2017-03-21 01:26:03 [INFO ] (BusStop.java:66) - STOP5. Bus6 leaved stop.
+2017-03-21 01:26:03 [INFO ] (BusStop.java:36) - STOP6: Bus6 reached stop 
+2017-03-21 01:26:03 [INFO ] (BusStop.java:38) - STOP6: Bus6 acquired semaphore
+2017-03-21 01:26:03 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus5: 7
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus6: 5
+2017-03-21 01:26:03 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 4. Buses on stop: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus5: 11
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus6: 2
+2017-03-21 01:26:03 [INFO ] (BusStop.java:66) - STOP4. Bus2 leaved stop.
+2017-03-21 01:26:03 [INFO ] (BusStop.java:36) - STOP3: Bus2 reached stop 
+2017-03-21 01:26:03 [INFO ] (BusStop.java:38) - STOP3: Bus2 acquired semaphore
+2017-03-21 01:26:03 [INFO ] (BusStop.java:41) - STOP3: BusStop locked. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:26:03 [INFO ] (BusStop.java:44) - STOP3. Passengers in bus2: 18
+2017-03-21 01:26:03 [INFO ] (BusStop.java:56) - STOP3: BusStop before unlock. Passengers on stop: 4. Buses on stop: 1
+2017-03-21 01:26:03 [INFO ] (BusStop.java:59) - STOP3. Passengers in bus2: 14
+2017-03-21 01:26:04 [INFO ] (BusStop.java:66) - STOP6. Bus5 leaved stop.
+2017-03-21 01:26:04 [INFO ] (BusStop.java:36) - STOP7: Bus5 reached stop 
+2017-03-21 01:26:04 [INFO ] (BusStop.java:38) - STOP7: Bus5 acquired semaphore
+2017-03-21 01:26:04 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 14. Buses on stop: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus4: 18
+2017-03-21 01:26:04 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus5: 11
+2017-03-21 01:26:04 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus4: 20
+2017-03-21 01:26:04 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus5: 20
+2017-03-21 01:26:04 [INFO ] (BusStop.java:66) - STOP4. Bus3 leaved stop.
+2017-03-21 01:26:04 [INFO ] (BusStop.java:36) - STOP6: Bus3 reached stop 
+2017-03-21 01:26:04 [INFO ] (BusStop.java:38) - STOP6: Bus3 acquired semaphore
+2017-03-21 01:26:04 [INFO ] (BusStop.java:41) - STOP6: BusStop locked. Passengers on stop: 4. Buses on stop: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus6: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:44) - STOP6. Passengers in bus3: 6
+2017-03-21 01:26:04 [INFO ] (BusStop.java:56) - STOP6: BusStop before unlock. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus6: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:59) - STOP6. Passengers in bus3: 7
+2017-03-21 01:26:04 [INFO ] (BusStop.java:66) - STOP7. Bus4 leaved stop.
+2017-03-21 01:26:04 [INFO ] (BusStop.java:36) - STOP8: Bus4 reached stop 
+2017-03-21 01:26:04 [INFO ] (BusStop.java:66) - STOP8. Bus1 leaved stop.
+2017-03-21 01:26:04 [INFO ] (BusStop.java:38) - STOP8: Bus4 acquired semaphore
+2017-03-21 01:26:04 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 11. Buses on stop: 1
+2017-03-21 01:26:04 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus4: 20
+2017-03-21 01:26:04 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:26:04 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus4: 21
+2017-03-21 01:26:04 [INFO ] (BusStop.java:36) - STOP8: Bus1 reached stop 
+2017-03-21 01:26:04 [INFO ] (BusStop.java:66) - STOP6. Bus6 leaved stop.
+2017-03-21 01:26:04 [INFO ] (BusStop.java:36) - STOP7: Bus6 reached stop 
+2017-03-21 01:26:04 [INFO ] (BusStop.java:38) - STOP7: Bus6 acquired semaphore
+2017-03-21 01:26:04 [INFO ] (BusStop.java:41) - STOP7: BusStop locked. Passengers on stop: 3. Buses on stop: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus5: 20
+2017-03-21 01:26:04 [INFO ] (BusStop.java:44) - STOP7. Passengers in bus6: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:56) - STOP7: BusStop before unlock. Passengers on stop: 1. Buses on stop: 2
+2017-03-21 01:26:04 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus5: 21
+2017-03-21 01:26:04 [INFO ] (BusStop.java:59) - STOP7. Passengers in bus6: 3
+2017-03-21 01:26:04 [INFO ] (BusStop.java:66) - STOP3. Bus2 leaved stop.
+2017-03-21 01:26:04 [INFO ] (BusStop.java:36) - STOP2: Bus2 reached stop 
+2017-03-21 01:26:04 [INFO ] (BusStop.java:38) - STOP2: Bus2 acquired semaphore
+2017-03-21 01:26:04 [INFO ] (BusStop.java:41) - STOP2: BusStop locked. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:26:04 [INFO ] (BusStop.java:44) - STOP2. Passengers in bus2: 14
+2017-03-21 01:26:04 [INFO ] (BusStop.java:56) - STOP2: BusStop before unlock. Passengers on stop: 1. Buses on stop: 1
+2017-03-21 01:26:04 [INFO ] (BusStop.java:59) - STOP2. Passengers in bus2: 13
+2017-03-21 01:26:05 [INFO ] (BusStop.java:66) - STOP7. Bus5 leaved stop.
+2017-03-21 01:26:05 [INFO ] (BusStop.java:36) - STOP8: Bus5 reached stop 
+2017-03-21 01:26:05 [INFO ] (BusStop.java:66) - STOP6. Bus3 leaved stop.
+2017-03-21 01:26:05 [INFO ] (BusStop.java:36) - STOP10: Bus3 reached stop 
+2017-03-21 01:26:05 [INFO ] (BusStop.java:38) - STOP10: Bus3 acquired semaphore
+2017-03-21 01:26:05 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:26:05 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus3: 7
+2017-03-21 01:26:05 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:26:05 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus3: 7
+2017-03-21 01:26:05 [INFO ] (BusStop.java:66) - STOP8. Bus4 leaved stop.
+2017-03-21 01:26:05 [INFO ] (BusStop.java:36) - STOP8: Bus4 reached stop 
+2017-03-21 01:26:05 [INFO ] (BusStop.java:38) - STOP8: Bus1 acquired semaphore
+2017-03-21 01:26:05 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:26:05 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus1: 21
+2017-03-21 01:26:05 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 16. Buses on stop: 1
+2017-03-21 01:26:05 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus1: 15
+2017-03-21 01:26:05 [INFO ] (BusStop.java:66) - STOP7. Bus6 leaved stop.
+2017-03-21 01:26:05 [INFO ] (BusStop.java:36) - STOP8: Bus6 reached stop 
+2017-03-21 01:26:05 [INFO ] (BusStop.java:66) - STOP2. Bus2 leaved stop.
+2017-03-21 01:26:05 [INFO ] (BusStop.java:36) - STOP1: Bus2 reached stop 
+2017-03-21 01:26:05 [INFO ] (BusStop.java:38) - STOP1: Bus2 acquired semaphore
+2017-03-21 01:26:05 [INFO ] (BusStop.java:41) - STOP1: BusStop locked. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:26:05 [INFO ] (BusStop.java:44) - STOP1. Passengers in bus2: 13
+2017-03-21 01:26:05 [INFO ] (BusStop.java:56) - STOP1: BusStop before unlock. Passengers on stop: 0. Buses on stop: 1
+2017-03-21 01:26:05 [INFO ] (BusStop.java:59) - STOP1. Passengers in bus2: 13
+2017-03-21 01:26:06 [INFO ] (BusStop.java:66) - STOP10. Bus3 leaved stop.
+2017-03-21 01:26:06 [INFO ] (BusStop.java:36) - STOP8: Bus3 reached stop 
+2017-03-21 01:26:06 [INFO ] (BusStop.java:66) - STOP8. Bus1 leaved stop.
+2017-03-21 01:26:06 [INFO ] (BusStop.java:38) - STOP8: Bus5 acquired semaphore
+2017-03-21 01:26:06 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 16. Buses on stop: 1
+2017-03-21 01:26:06 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus5: 21
+2017-03-21 01:26:06 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 20. Buses on stop: 1
+2017-03-21 01:26:06 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus5: 17
+2017-03-21 01:26:06 [INFO ] (BusStop.java:36) - STOP10: Bus1 reached stop 
+2017-03-21 01:26:06 [INFO ] (BusStop.java:38) - STOP10: Bus1 acquired semaphore
+2017-03-21 01:26:06 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 9. Buses on stop: 1
+2017-03-21 01:26:06 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus1: 15
+2017-03-21 01:26:06 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:26:06 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus1: 14
+2017-03-21 01:26:06 [INFO ] (BusStop.java:66) - STOP1. Bus2 leaved stop.
+2017-03-21 01:26:07 [INFO ] (BusStop.java:66) - STOP8. Bus5 leaved stop.
+2017-03-21 01:26:07 [INFO ] (BusStop.java:36) - STOP8: Bus5 reached stop 
+2017-03-21 01:26:07 [INFO ] (BusStop.java:38) - STOP8: Bus4 acquired semaphore
+2017-03-21 01:26:07 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 20. Buses on stop: 1
+2017-03-21 01:26:07 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus4: 21
+2017-03-21 01:26:07 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 18. Buses on stop: 1
+2017-03-21 01:26:07 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus4: 23
+2017-03-21 01:26:07 [INFO ] (BusStop.java:66) - STOP10. Bus1 leaved stop.
+2017-03-21 01:26:08 [INFO ] (BusStop.java:66) - STOP8. Bus4 leaved stop.
+2017-03-21 01:26:08 [INFO ] (BusStop.java:36) - STOP10: Bus4 reached stop 
+2017-03-21 01:26:08 [INFO ] (BusStop.java:38) - STOP8: Bus6 acquired semaphore
+2017-03-21 01:26:08 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 18. Buses on stop: 1
+2017-03-21 01:26:08 [INFO ] (BusStop.java:38) - STOP10: Bus4 acquired semaphore
+2017-03-21 01:26:08 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus6: 3
+2017-03-21 01:26:08 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:26:08 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:26:08 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus4: 23
+2017-03-21 01:26:08 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus6: 11
+2017-03-21 01:26:08 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 14. Buses on stop: 1
+2017-03-21 01:26:08 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus4: 19
+2017-03-21 01:26:09 [INFO ] (BusStop.java:66) - STOP8. Bus6 leaved stop.
+2017-03-21 01:26:09 [INFO ] (BusStop.java:38) - STOP8: Bus3 acquired semaphore
+2017-03-21 01:26:09 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 10. Buses on stop: 1
+2017-03-21 01:26:09 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus3: 7
+2017-03-21 01:26:09 [INFO ] (BusStop.java:36) - STOP8: Bus6 reached stop 
+2017-03-21 01:26:09 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 2. Buses on stop: 1
+2017-03-21 01:26:09 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus3: 15
+2017-03-21 01:26:09 [INFO ] (BusStop.java:66) - STOP10. Bus4 leaved stop.
+2017-03-21 01:26:10 [INFO ] (BusStop.java:66) - STOP8. Bus3 leaved stop.
+2017-03-21 01:26:10 [INFO ] (BusStop.java:38) - STOP8: Bus5 acquired semaphore
+2017-03-21 01:26:10 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 2. Buses on stop: 1
+2017-03-21 01:26:10 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus5: 17
+2017-03-21 01:26:10 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:26:10 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus5: 16
+2017-03-21 01:26:11 [INFO ] (BusStop.java:66) - STOP8. Bus5 leaved stop.
+2017-03-21 01:26:11 [INFO ] (BusStop.java:36) - STOP10: Bus5 reached stop 
+2017-03-21 01:26:11 [INFO ] (BusStop.java:38) - STOP8: Bus6 acquired semaphore
+2017-03-21 01:26:11 [INFO ] (BusStop.java:38) - STOP10: Bus5 acquired semaphore
+2017-03-21 01:26:11 [INFO ] (BusStop.java:41) - STOP8: BusStop locked. Passengers on stop: 3. Buses on stop: 1
+2017-03-21 01:26:11 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 14. Buses on stop: 1
+2017-03-21 01:26:11 [INFO ] (BusStop.java:44) - STOP8. Passengers in bus6: 11
+2017-03-21 01:26:11 [INFO ] (BusStop.java:56) - STOP8: BusStop before unlock. Passengers on stop: 7. Buses on stop: 1
+2017-03-21 01:26:11 [INFO ] (BusStop.java:59) - STOP8. Passengers in bus6: 7
+2017-03-21 01:26:11 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus5: 16
+2017-03-21 01:26:11 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 13. Buses on stop: 1
+2017-03-21 01:26:11 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus5: 17
+2017-03-21 01:26:12 [INFO ] (BusStop.java:66) - STOP8. Bus6 leaved stop.
+2017-03-21 01:26:12 [INFO ] (BusStop.java:36) - STOP10: Bus6 reached stop 
+2017-03-21 01:26:12 [INFO ] (BusStop.java:38) - STOP10: Bus6 acquired semaphore
+2017-03-21 01:26:12 [INFO ] (BusStop.java:41) - STOP10: BusStop locked. Passengers on stop: 13. Buses on stop: 2
+2017-03-21 01:26:12 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus5: 17
+2017-03-21 01:26:12 [INFO ] (BusStop.java:44) - STOP10. Passengers in bus6: 7
+2017-03-21 01:26:12 [INFO ] (BusStop.java:56) - STOP10: BusStop before unlock. Passengers on stop: 5. Buses on stop: 2
+2017-03-21 01:26:12 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus5: 17
+2017-03-21 01:26:12 [INFO ] (BusStop.java:59) - STOP10. Passengers in bus6: 15
+2017-03-21 01:26:12 [INFO ] (BusStop.java:66) - STOP10. Bus5 leaved stop.
+2017-03-21 01:26:13 [INFO ] (BusStop.java:66) - STOP10. Bus6 leaved stop.
+2017-03-21 01:26:13 [INFO ] (RouteMain.java:28) - 418 passengers were transported.

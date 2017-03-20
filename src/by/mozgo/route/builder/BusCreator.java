@@ -38,10 +38,10 @@ public class BusCreator {
                                     capacity, passengersOnStop);
 
                         } catch (NumberFormatException e) {
-                            LOGGER.log(Level.ERROR, "Incorrect symbol in line.");
+                            LOGGER.log(Level.ERROR, "Incorrect symbol in line. {}", e);
                         }
                     } else {
-                        LOGGER.log(Level.ERROR, "Invalid number of parameters in line.");
+                        LOGGER.log(Level.ERROR, "Invalid number of parameters in line. {}");
                     }
                     break;
                 case "BUS":

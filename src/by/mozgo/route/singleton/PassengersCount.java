@@ -1,4 +1,4 @@
-package by.mozgo.route.entity;
+package by.mozgo.route.singleton;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;

@@ -30,8 +30,8 @@ public class RouteReader {
             }
             in.close();
         } catch (IOException e) {
-            LOGGER.log(Level.FATAL, "Input file not found!");
-            throw new RuntimeException(e + "Input file not found!");
+            LOGGER.log(Level.FATAL, "Input file not found! {}", e);
+            throw new RuntimeException(e + "Input file not found!", e);
         }
         if (lines.size() == 0) {
             LOGGER.log(Level.FATAL, "Input file empty! ");

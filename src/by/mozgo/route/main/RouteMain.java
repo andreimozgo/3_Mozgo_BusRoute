@@ -2,8 +2,8 @@ package by.mozgo.route.main;
 
 import by.mozgo.route.builder.BusCreator;
 import by.mozgo.route.entity.Bus;
-import by.mozgo.route.entity.PassengersCount;
 import by.mozgo.route.reader.RouteReader;
+import by.mozgo.route.singleton.PassengersCount;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

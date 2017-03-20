@@ -1,5 +1,6 @@
 package by.mozgo.route.entity;
 
+import by.mozgo.route.singleton.PassengersCount;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -25,7 +26,7 @@ public class Bus extends Thread {
             try {
                 busStop.exchangePassengers(this);
             } catch (InterruptedException e) {
-                LOGGER.log(Level.ERROR, "InterruptedException in bus" + id + " on stop " + busStop.getName());
+                LOGGER.log(Level.ERROR, "InterruptedException in bus {} on stop {}. ", id, busStop.getName(), e);
             }
         }
     }
@@ -50,6 +51,6 @@ public class Bus extends Thread {
 
     @Override
     public String toString() {
-        return id + " " + passengers + " " + route;
+        return id + " " + route;
     }
 }
