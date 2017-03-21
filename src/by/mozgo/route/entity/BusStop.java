@@ -37,15 +37,15 @@ public class BusStop {
     }
 
     public void exchangePassengers(Bus bus) throws InterruptedException {
-        LOGGER.log(Level.INFO, "{}: Bus" + bus.getId() + " reached stop ", name);
+        LOGGER.log(Level.INFO, "{}: Bus" + bus.getNumber() + " reached stop and wait. ", name);
         semaphore.acquire();
-        LOGGER.log(Level.INFO, "{}: Bus" + bus.getId() + " acquired semaphore", name);
+        LOGGER.log(Level.INFO, "{}: Bus" + bus.getNumber() + " acquired semaphore", name);
         busStopLock.lock();
         stoppedBuses.add(bus);
-        LOGGER.log(Level.INFO, "{}: BusStop locked. Passengers on stop: {}. Buses on stop: {}",
+        LOGGER.log(Level.INFO, "{}: Exchange started. Passengers on stop: {}. Buses on stop: {}",
                 name, passengersOnStop, stoppedBuses.size());
         for (Bus stoppedBus : stoppedBuses) {
-            LOGGER.log(Level.INFO, "{}. Passengers in bus{}: {}", name, stoppedBus.getId(), stoppedBus.getPassengers());
+            LOGGER.log(Level.INFO, "{}. Passengers in bus{}: {}", name, stoppedBus.getNumber(), stoppedBus.getPassengers());
         }
         int passengersLeaveBus = (int) Math.round(Math.random() * bus.getPassengers());
         int passengersEnterBus = (int) Math.round(Math.random() * passengersOnStop);
@@ -57,17 +57,17 @@ public class BusStop {
         }
         passengersOnStop = passengersOnStop - passengersEnterBus + passengersLeaveBus;
         bus.addPassengers(passengersEnterBus);
-        LOGGER.log(Level.INFO, "{}: BusStop before unlock. Passengers on stop: {}. Buses on stop: {}",
+        LOGGER.log(Level.INFO, "{}: Exchange ended. Passengers on stop: {}. Buses on stop: {}",
                 name, passengersOnStop, stoppedBuses.size());
         for (Bus stoppedBus : stoppedBuses) {
-            LOGGER.log(Level.INFO, "{}. Passengers in bus{}: {}", name, stoppedBus.getId(), stoppedBus.getPassengers());
+            LOGGER.log(Level.INFO, "{}. Passengers in bus{}: {}", name, stoppedBus.getNumber(), stoppedBus.getPassengers());
         }
         busStopLock.unlock();
         TimeUnit.SECONDS.sleep(1);
         busStopLock.lock();
         stoppedBuses.remove(bus);
         busStopLock.unlock();
-        LOGGER.log(Level.INFO, "{}. Bus{} leaved stop.", name, bus.getId());
+        LOGGER.log(Level.INFO, "{}. Bus{} leaved stop.", name, bus.getNumber());
         semaphore.release();
     }
 

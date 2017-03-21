@@ -1,39 +1,35 @@
 package by.mozgo.route.entity;
 
 import by.mozgo.route.singleton.PassengersCount;
+import by.mozgo.route.singleton.TimeTable;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.List;
 
 /**
  * @author Andrei Mozgo
  */
 public class Bus extends Thread {
     private static final Logger LOGGER = LogManager.getLogger();
-    private long id;
     private int passengers;
-    private List<BusStop> route;
+    private Route route;
 
-    public Bus(int id, List<BusStop> route) {
-        this.id = id;
-        this.route = route;
+    public Bus() {
     }
 
     public void run() {
-        for (BusStop busStop : route) {
+        route = TimeTable.getInstance().getRoute();
+        for (BusStop busStop : route.getBusStops()) {
             try {
                 busStop.exchangePassengers(this);
             } catch (InterruptedException e) {
-                LOGGER.log(Level.ERROR, "InterruptedException in bus {} on stop {}. ", id, busStop.getName(), e);
+                LOGGER.log(Level.ERROR, "InterruptedException in bus {} on stop {}. ", getNumber(), busStop.getName(), e);
             }
         }
     }
 
-    @Override
-    public long getId() {
-        return id;
+    public long getNumber() {
+        return route.getNumber();
     }
 
     public int getPassengers() {
@@ -51,7 +47,7 @@ public class Bus extends Thread {
 
     @Override
     public String toString() {
-        return id + " " + route;
+        return route.toString();
     }
 
     @Override
@@ -62,7 +58,7 @@ public class Bus extends Thread {
             return true;
         if (obj.getClass() == this.getClass()) {
             Bus bus = (Bus) obj;
-            if (bus.id == this.id && bus.passengers == this.passengers &&
+            if (bus.passengers == this.passengers &&
                     bus.route.equals(this.route)) {
                 return true;
             }
