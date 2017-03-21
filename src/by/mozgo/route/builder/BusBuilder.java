@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * @author Andrei Mozgo
  */
-public class BusCreator {
+public class BusBuilder {
     private static final Logger LOGGER = LogManager.getLogger();
     private static final int NUMBER_OF_BUS_STOP_PARAMETERS = 4;
     private static final int ENTITY_IDENTIFIER = 0;

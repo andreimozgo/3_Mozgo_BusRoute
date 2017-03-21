@@ -53,4 +53,20 @@ public class Bus extends Thread {
     public String toString() {
         return id + " " + route;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null)
+            return false;
+        if (obj == this)
+            return true;
+        if (obj.getClass() == this.getClass()) {
+            Bus bus = (Bus) obj;
+            if (bus.id == this.id && bus.passengers == this.passengers &&
+                    bus.route.equals(this.route)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

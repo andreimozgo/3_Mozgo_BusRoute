@@ -5000,3 +5000,38 @@ java.io.FileNotFoundException:
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
+2017-03-21 11:14:04 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:14:04 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:18:10 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:18:10 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:19:51 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:19:51 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:21:09 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:21:09 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:50:51 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:50:51 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:51:44 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:51:44 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:52:35 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 21
+2017-03-21 11:52:35 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:53:01 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:53:01 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:54:32 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 21
+2017-03-21 11:54:32 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1 21]
+2017-03-21 11:56:32 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 21
+2017-03-21 11:56:32 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:59:01 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:59:01 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 11:59:15 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:59:15 [INFO ] (BusBuilder.java:59) - Added bus: 1 []
+2017-03-21 11:59:29 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 11:59:29 [INFO ] (BusBuilder.java:59) - Added bus: 1 [STOP1]
+2017-03-21 12:01:47 [INFO ] (BusBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-21 12:01:47 [FATAL] (BusBuilder.java:66) - Incorrect input file. Data doesn't enough to run the application.
+2017-03-21 12:15:16 [INFO ] (BusStop.java:40) - STOP1: Bus1 reached stop 
+2017-03-21 12:15:16 [INFO ] (BusStop.java:42) - STOP1: Bus1 acquired semaphore
+2017-03-21 12:15:16 [INFO ] (BusStop.java:45) - STOP1: BusStop locked. Passengers on stop: 20. Buses on stop: 1
+2017-03-21 12:15:16 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus1: 0
+2017-03-21 12:15:16 [INFO ] (BusStop.java:60) - STOP1: BusStop before unlock. Passengers on stop: 16. Buses on stop: 1
+2017-03-21 12:15:16 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus1: 4
+2017-03-21 12:15:17 [INFO ] (BusStop.java:70) - STOP1. Bus1 leaved stop.

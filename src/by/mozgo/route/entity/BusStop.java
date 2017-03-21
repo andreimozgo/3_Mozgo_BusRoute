@@ -32,6 +32,10 @@ public class BusStop {
         return name;
     }
 
+    public int getPassengersOnStop() {
+        return passengersOnStop;
+    }
+
     public void exchangePassengers(Bus bus) throws InterruptedException {
         LOGGER.log(Level.INFO, "{}: Bus" + bus.getId() + " reached stop ", name);
         semaphore.acquire();
@@ -70,5 +74,21 @@ public class BusStop {
     @Override
     public String toString() {
         return name.toString();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null)
+            return false;
+        if (obj == this)
+            return true;
+        if (obj.getClass() == this.getClass()) {
+            BusStop busStop = (BusStop) obj;
+            if (busStop.name.equals(this.name) && busStop.passengersOnStop == this.passengersOnStop &&
+                    busStop.stoppedBuses.equals(this.stoppedBuses)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -1,6 +1,6 @@
 package by.mozgo.route.main;
 
-import by.mozgo.route.builder.BusCreator;
+import by.mozgo.route.builder.BusBuilder;
 import by.mozgo.route.entity.Bus;
 import by.mozgo.route.reader.RouteReader;
 import by.mozgo.route.singleton.PassengersCount;
@@ -16,7 +16,7 @@ import java.util.List;
 public class RouteMain {
     private static final Logger LOGGER = LogManager.getLogger();
     public static void main(String[] args) {
-        List<Bus> buses = BusCreator.generateBuses(RouteReader.readData("data/input.txt"));
+        List<Bus> buses = BusBuilder.generateBuses(RouteReader.readData("data/input.txt"));
         buses.stream().forEach(Bus::start);
         buses.stream().forEach((bus) -> {
             try {
