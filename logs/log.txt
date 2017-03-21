@@ -1,489 +1,509 @@
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP2, capacity: 3, passengers: 10
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP3, capacity: 2, passengers: 10
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP4, capacity: 2, passengers: 15
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP5, capacity: 4, passengers: 8
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP6, capacity: 3, passengers: 18
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP7, capacity: 3, passengers: 9
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP8, capacity: 1, passengers: 11
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP9, capacity: 3, passengers: 14
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP10, capacity: 3, passengers: 9
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:60) - Added route: 10[STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:60) - Added route: 20[STOP10, STOP9, STOP8, STOP7, STOP6, STOP5, STOP4, STOP3, STOP2, STOP1]
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:60) - Added route: 30[STOP1, STOP2, STOP5, STOP7, STOP9, STOP3, STOP4, STOP6, STOP10, STOP8]
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:60) - Added route: 40[STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:60) - Added route: 50[STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
-2017-03-22 01:12:25 [INFO ] (RouteBuilder.java:60) - Added route: 60[STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
-2017-03-22 01:12:25 [INFO ] (BusStop.java:40) - STOP1: Bus10 reached stop and wait. 
-2017-03-22 01:12:25 [INFO ] (BusStop.java:40) - STOP10: Bus20 reached stop and wait. 
-2017-03-22 01:12:25 [INFO ] (BusStop.java:42) - STOP1: Bus10 acquired semaphore
-2017-03-22 01:12:25 [INFO ] (BusStop.java:45) - STOP1: Exchange started. Passengers on stop: 20. Buses on stop: 1
-2017-03-22 01:12:25 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus10: 0
-2017-03-22 01:12:25 [INFO ] (BusStop.java:60) - STOP1: Exchange ended. Passengers on stop: 14. Buses on stop: 1
-2017-03-22 01:12:25 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus10: 6
-2017-03-22 01:12:25 [INFO ] (BusStop.java:40) - STOP1: Bus30 reached stop and wait. 
-2017-03-22 01:12:25 [INFO ] (BusStop.java:42) - STOP1: Bus30 acquired semaphore
-2017-03-22 01:12:25 [INFO ] (BusStop.java:42) - STOP10: Bus20 acquired semaphore
-2017-03-22 01:12:25 [INFO ] (BusStop.java:45) - STOP10: Exchange started. Passengers on stop: 9. Buses on stop: 1
-2017-03-22 01:12:25 [INFO ] (BusStop.java:48) - STOP10. Passengers in bus20: 0
-2017-03-22 01:12:25 [INFO ] (BusStop.java:60) - STOP10: Exchange ended. Passengers on stop: 2. Buses on stop: 1
-2017-03-22 01:12:25 [INFO ] (BusStop.java:63) - STOP10. Passengers in bus20: 7
-2017-03-22 01:12:25 [INFO ] (BusStop.java:40) - STOP1: Bus40 reached stop and wait. 
-2017-03-22 01:12:25 [INFO ] (BusStop.java:45) - STOP1: Exchange started. Passengers on stop: 14. Buses on stop: 2
-2017-03-22 01:12:25 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus10: 6
-2017-03-22 01:12:25 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus30: 0
-2017-03-22 01:12:25 [INFO ] (BusStop.java:60) - STOP1: Exchange ended. Passengers on stop: 11. Buses on stop: 2
-2017-03-22 01:12:25 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus10: 6
-2017-03-22 01:12:25 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus30: 3
-2017-03-22 01:12:25 [INFO ] (BusStop.java:40) - STOP1: Bus50 reached stop and wait. 
-2017-03-22 01:12:25 [INFO ] (BusStop.java:40) - STOP1: Bus60 reached stop and wait. 
-2017-03-22 01:12:26 [INFO ] (BusStop.java:70) - STOP1. Bus10 leaved stop.
-2017-03-22 01:12:26 [INFO ] (BusStop.java:42) - STOP1: Bus40 acquired semaphore
-2017-03-22 01:12:26 [INFO ] (BusStop.java:45) - STOP1: Exchange started. Passengers on stop: 11. Buses on stop: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus40: 0
-2017-03-22 01:12:26 [INFO ] (BusStop.java:60) - STOP1: Exchange ended. Passengers on stop: 10. Buses on stop: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus40: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:40) - STOP2: Bus10 reached stop and wait. 
-2017-03-22 01:12:26 [INFO ] (BusStop.java:42) - STOP2: Bus10 acquired semaphore
-2017-03-22 01:12:26 [INFO ] (BusStop.java:45) - STOP2: Exchange started. Passengers on stop: 10. Buses on stop: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus10: 6
-2017-03-22 01:12:26 [INFO ] (BusStop.java:60) - STOP2: Exchange ended. Passengers on stop: 9. Buses on stop: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus10: 7
-2017-03-22 01:12:26 [INFO ] (BusStop.java:70) - STOP1. Bus30 leaved stop.
-2017-03-22 01:12:26 [INFO ] (BusStop.java:42) - STOP1: Bus50 acquired semaphore
-2017-03-22 01:12:26 [INFO ] (BusStop.java:45) - STOP1: Exchange started. Passengers on stop: 10. Buses on stop: 2
-2017-03-22 01:12:26 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus40: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus50: 0
-2017-03-22 01:12:26 [INFO ] (BusStop.java:60) - STOP1: Exchange ended. Passengers on stop: 10. Buses on stop: 2
-2017-03-22 01:12:26 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus40: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus50: 0
-2017-03-22 01:12:26 [INFO ] (BusStop.java:40) - STOP2: Bus30 reached stop and wait. 
-2017-03-22 01:12:26 [INFO ] (BusStop.java:70) - STOP10. Bus20 leaved stop.
-2017-03-22 01:12:26 [INFO ] (BusStop.java:40) - STOP9: Bus20 reached stop and wait. 
-2017-03-22 01:12:26 [INFO ] (BusStop.java:42) - STOP9: Bus20 acquired semaphore
-2017-03-22 01:12:26 [INFO ] (BusStop.java:45) - STOP9: Exchange started. Passengers on stop: 14. Buses on stop: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:48) - STOP9. Passengers in bus20: 7
-2017-03-22 01:12:26 [INFO ] (BusStop.java:60) - STOP9: Exchange ended. Passengers on stop: 11. Buses on stop: 1
-2017-03-22 01:12:26 [INFO ] (BusStop.java:63) - STOP9. Passengers in bus20: 10
-2017-03-22 01:12:26 [INFO ] (BusStop.java:42) - STOP2: Bus30 acquired semaphore
-2017-03-22 01:12:26 [INFO ] (BusStop.java:45) - STOP2: Exchange started. Passengers on stop: 9. Buses on stop: 2
-2017-03-22 01:12:26 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus10: 7
-2017-03-22 01:12:26 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus30: 3
-2017-03-22 01:12:26 [INFO ] (BusStop.java:60) - STOP2: Exchange ended. Passengers on stop: 5. Buses on stop: 2
-2017-03-22 01:12:26 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus10: 8
-2017-03-22 01:12:26 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus30: 6
-2017-03-22 01:12:27 [INFO ] (BusStop.java:70) - STOP1. Bus50 leaved stop.
-2017-03-22 01:12:27 [INFO ] (BusStop.java:42) - STOP1: Bus60 acquired semaphore
-2017-03-22 01:12:27 [INFO ] (BusStop.java:40) - STOP2: Bus50 reached stop and wait. 
-2017-03-22 01:12:27 [INFO ] (BusStop.java:42) - STOP2: Bus50 acquired semaphore
-2017-03-22 01:12:27 [INFO ] (BusStop.java:45) - STOP1: Exchange started. Passengers on stop: 10. Buses on stop: 2
-2017-03-22 01:12:27 [INFO ] (BusStop.java:45) - STOP2: Exchange started. Passengers on stop: 5. Buses on stop: 3
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus40: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus10: 8
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus60: 0
-2017-03-22 01:12:27 [INFO ] (BusStop.java:60) - STOP1: Exchange ended. Passengers on stop: 6. Buses on stop: 2
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus40: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus60: 4
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus30: 6
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus50: 0
-2017-03-22 01:12:27 [INFO ] (BusStop.java:60) - STOP2: Exchange ended. Passengers on stop: 4. Buses on stop: 3
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus10: 8
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus30: 6
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus50: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:70) - STOP2. Bus10 leaved stop.
-2017-03-22 01:12:27 [INFO ] (BusStop.java:40) - STOP3: Bus10 reached stop and wait. 
-2017-03-22 01:12:27 [INFO ] (BusStop.java:42) - STOP3: Bus10 acquired semaphore
-2017-03-22 01:12:27 [INFO ] (BusStop.java:45) - STOP3: Exchange started. Passengers on stop: 10. Buses on stop: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus10: 8
-2017-03-22 01:12:27 [INFO ] (BusStop.java:60) - STOP3: Exchange ended. Passengers on stop: 5. Buses on stop: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus10: 13
-2017-03-22 01:12:27 [INFO ] (BusStop.java:70) - STOP1. Bus40 leaved stop.
-2017-03-22 01:12:27 [INFO ] (BusStop.java:40) - STOP2: Bus40 reached stop and wait. 
-2017-03-22 01:12:27 [INFO ] (BusStop.java:42) - STOP2: Bus40 acquired semaphore
-2017-03-22 01:12:27 [INFO ] (BusStop.java:45) - STOP2: Exchange started. Passengers on stop: 4. Buses on stop: 3
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus30: 6
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus50: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus40: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:60) - STOP2: Exchange ended. Passengers on stop: 0. Buses on stop: 3
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus30: 6
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus50: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus40: 5
-2017-03-22 01:12:27 [INFO ] (BusStop.java:70) - STOP2. Bus30 leaved stop.
-2017-03-22 01:12:27 [INFO ] (BusStop.java:40) - STOP5: Bus30 reached stop and wait. 
-2017-03-22 01:12:27 [INFO ] (BusStop.java:42) - STOP5: Bus30 acquired semaphore
-2017-03-22 01:12:27 [INFO ] (BusStop.java:45) - STOP5: Exchange started. Passengers on stop: 8. Buses on stop: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus30: 6
-2017-03-22 01:12:27 [INFO ] (BusStop.java:60) - STOP5: Exchange ended. Passengers on stop: 8. Buses on stop: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus30: 6
-2017-03-22 01:12:27 [INFO ] (BusStop.java:70) - STOP9. Bus20 leaved stop.
-2017-03-22 01:12:27 [INFO ] (BusStop.java:40) - STOP8: Bus20 reached stop and wait. 
-2017-03-22 01:12:27 [INFO ] (BusStop.java:42) - STOP8: Bus20 acquired semaphore
-2017-03-22 01:12:27 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 11. Buses on stop: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus20: 10
-2017-03-22 01:12:27 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 12. Buses on stop: 1
-2017-03-22 01:12:27 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus20: 9
-2017-03-22 01:12:28 [INFO ] (BusStop.java:70) - STOP2. Bus40 leaved stop.
-2017-03-22 01:12:28 [INFO ] (BusStop.java:40) - STOP3: Bus40 reached stop and wait. 
-2017-03-22 01:12:28 [INFO ] (BusStop.java:42) - STOP3: Bus40 acquired semaphore
-2017-03-22 01:12:28 [INFO ] (BusStop.java:45) - STOP3: Exchange started. Passengers on stop: 5. Buses on stop: 2
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus10: 13
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus40: 5
-2017-03-22 01:12:28 [INFO ] (BusStop.java:60) - STOP3: Exchange ended. Passengers on stop: 4. Buses on stop: 2
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus10: 15
-2017-03-22 01:12:28 [INFO ] (BusStop.java:70) - STOP2. Bus50 leaved stop.
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus40: 4
-2017-03-22 01:12:28 [INFO ] (BusStop.java:40) - STOP3: Bus50 reached stop and wait. 
-2017-03-22 01:12:28 [INFO ] (BusStop.java:70) - STOP3. Bus10 leaved stop.
-2017-03-22 01:12:28 [INFO ] (BusStop.java:70) - STOP1. Bus60 leaved stop.
-2017-03-22 01:12:28 [INFO ] (BusStop.java:40) - STOP4: Bus10 reached stop and wait. 
-2017-03-22 01:12:28 [INFO ] (BusStop.java:40) - STOP2: Bus60 reached stop and wait. 
-2017-03-22 01:12:28 [INFO ] (BusStop.java:42) - STOP4: Bus10 acquired semaphore
-2017-03-22 01:12:28 [INFO ] (BusStop.java:45) - STOP4: Exchange started. Passengers on stop: 15. Buses on stop: 1
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus10: 15
-2017-03-22 01:12:28 [INFO ] (BusStop.java:60) - STOP4: Exchange ended. Passengers on stop: 9. Buses on stop: 1
-2017-03-22 01:12:28 [INFO ] (BusStop.java:42) - STOP3: Bus50 acquired semaphore
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus10: 21
-2017-03-22 01:12:28 [INFO ] (BusStop.java:42) - STOP2: Bus60 acquired semaphore
-2017-03-22 01:12:28 [INFO ] (BusStop.java:45) - STOP3: Exchange started. Passengers on stop: 4. Buses on stop: 2
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus40: 4
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus50: 1
-2017-03-22 01:12:28 [INFO ] (BusStop.java:60) - STOP3: Exchange ended. Passengers on stop: 0. Buses on stop: 2
-2017-03-22 01:12:28 [INFO ] (BusStop.java:45) - STOP2: Exchange started. Passengers on stop: 0. Buses on stop: 1
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus40: 4
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus60: 4
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus50: 5
-2017-03-22 01:12:28 [INFO ] (BusStop.java:60) - STOP2: Exchange ended. Passengers on stop: 0. Buses on stop: 1
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus60: 4
-2017-03-22 01:12:28 [INFO ] (BusStop.java:70) - STOP8. Bus20 leaved stop.
-2017-03-22 01:12:28 [INFO ] (BusStop.java:40) - STOP7: Bus20 reached stop and wait. 
-2017-03-22 01:12:28 [INFO ] (BusStop.java:42) - STOP7: Bus20 acquired semaphore
-2017-03-22 01:12:28 [INFO ] (BusStop.java:45) - STOP7: Exchange started. Passengers on stop: 9. Buses on stop: 1
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus20: 9
-2017-03-22 01:12:28 [INFO ] (BusStop.java:60) - STOP7: Exchange ended. Passengers on stop: 12. Buses on stop: 1
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus20: 6
-2017-03-22 01:12:28 [INFO ] (BusStop.java:70) - STOP5. Bus30 leaved stop.
-2017-03-22 01:12:28 [INFO ] (BusStop.java:40) - STOP7: Bus30 reached stop and wait. 
-2017-03-22 01:12:28 [INFO ] (BusStop.java:42) - STOP7: Bus30 acquired semaphore
-2017-03-22 01:12:28 [INFO ] (BusStop.java:45) - STOP7: Exchange started. Passengers on stop: 12. Buses on stop: 2
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus20: 6
-2017-03-22 01:12:28 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus30: 6
-2017-03-22 01:12:28 [INFO ] (BusStop.java:60) - STOP7: Exchange ended. Passengers on stop: 14. Buses on stop: 2
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus20: 7
-2017-03-22 01:12:28 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus30: 3
-2017-03-22 01:12:29 [INFO ] (BusStop.java:70) - STOP3. Bus50 leaved stop.
-2017-03-22 01:12:29 [INFO ] (BusStop.java:40) - STOP4: Bus50 reached stop and wait. 
-2017-03-22 01:12:29 [INFO ] (BusStop.java:42) - STOP4: Bus50 acquired semaphore
-2017-03-22 01:12:29 [INFO ] (BusStop.java:45) - STOP4: Exchange started. Passengers on stop: 9. Buses on stop: 2
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus10: 21
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus50: 5
-2017-03-22 01:12:29 [INFO ] (BusStop.java:60) - STOP4: Exchange ended. Passengers on stop: 1. Buses on stop: 2
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus10: 21
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus50: 13
-2017-03-22 01:12:29 [INFO ] (BusStop.java:70) - STOP2. Bus60 leaved stop.
-2017-03-22 01:12:29 [INFO ] (BusStop.java:40) - STOP3: Bus60 reached stop and wait. 
-2017-03-22 01:12:29 [INFO ] (BusStop.java:42) - STOP3: Bus60 acquired semaphore
-2017-03-22 01:12:29 [INFO ] (BusStop.java:45) - STOP3: Exchange started. Passengers on stop: 0. Buses on stop: 2
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus40: 4
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus60: 4
-2017-03-22 01:12:29 [INFO ] (BusStop.java:60) - STOP3: Exchange ended. Passengers on stop: 0. Buses on stop: 2
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus40: 6
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus60: 2
-2017-03-22 01:12:29 [INFO ] (BusStop.java:70) - STOP4. Bus10 leaved stop.
-2017-03-22 01:12:29 [INFO ] (BusStop.java:40) - STOP5: Bus10 reached stop and wait. 
-2017-03-22 01:12:29 [INFO ] (BusStop.java:42) - STOP5: Bus10 acquired semaphore
-2017-03-22 01:12:29 [INFO ] (BusStop.java:45) - STOP5: Exchange started. Passengers on stop: 8. Buses on stop: 1
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus10: 21
-2017-03-22 01:12:29 [INFO ] (BusStop.java:60) - STOP5: Exchange ended. Passengers on stop: 2. Buses on stop: 1
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus10: 27
-2017-03-22 01:12:29 [INFO ] (BusStop.java:70) - STOP3. Bus40 leaved stop.
-2017-03-22 01:12:29 [INFO ] (BusStop.java:40) - STOP4: Bus40 reached stop and wait. 
-2017-03-22 01:12:29 [INFO ] (BusStop.java:42) - STOP4: Bus40 acquired semaphore
-2017-03-22 01:12:29 [INFO ] (BusStop.java:45) - STOP4: Exchange started. Passengers on stop: 1. Buses on stop: 2
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus50: 13
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus40: 6
-2017-03-22 01:12:29 [INFO ] (BusStop.java:60) - STOP4: Exchange ended. Passengers on stop: 4. Buses on stop: 2
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus50: 13
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus40: 3
-2017-03-22 01:12:29 [INFO ] (BusStop.java:70) - STOP7. Bus20 leaved stop.
-2017-03-22 01:12:29 [INFO ] (BusStop.java:40) - STOP6: Bus20 reached stop and wait. 
-2017-03-22 01:12:29 [INFO ] (BusStop.java:70) - STOP7. Bus30 leaved stop.
-2017-03-22 01:12:29 [INFO ] (BusStop.java:42) - STOP6: Bus20 acquired semaphore
-2017-03-22 01:12:29 [INFO ] (BusStop.java:40) - STOP9: Bus30 reached stop and wait. 
-2017-03-22 01:12:29 [INFO ] (BusStop.java:45) - STOP6: Exchange started. Passengers on stop: 18. Buses on stop: 1
-2017-03-22 01:12:29 [INFO ] (BusStop.java:42) - STOP9: Bus30 acquired semaphore
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus20: 7
-2017-03-22 01:12:29 [INFO ] (BusStop.java:45) - STOP9: Exchange started. Passengers on stop: 11. Buses on stop: 1
-2017-03-22 01:12:29 [INFO ] (BusStop.java:60) - STOP6: Exchange ended. Passengers on stop: 16. Buses on stop: 1
-2017-03-22 01:12:29 [INFO ] (BusStop.java:48) - STOP9. Passengers in bus30: 3
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus20: 9
-2017-03-22 01:12:29 [INFO ] (BusStop.java:60) - STOP9: Exchange ended. Passengers on stop: 2. Buses on stop: 1
-2017-03-22 01:12:29 [INFO ] (BusStop.java:63) - STOP9. Passengers in bus30: 12
-2017-03-22 01:12:30 [INFO ] (BusStop.java:70) - STOP4. Bus50 leaved stop.
-2017-03-22 01:12:30 [INFO ] (BusStop.java:70) - STOP3. Bus60 leaved stop.
-2017-03-22 01:12:30 [INFO ] (BusStop.java:40) - STOP5: Bus50 reached stop and wait. 
-2017-03-22 01:12:30 [INFO ] (BusStop.java:40) - STOP4: Bus60 reached stop and wait. 
-2017-03-22 01:12:30 [INFO ] (BusStop.java:42) - STOP5: Bus50 acquired semaphore
-2017-03-22 01:12:30 [INFO ] (BusStop.java:45) - STOP5: Exchange started. Passengers on stop: 2. Buses on stop: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus10: 27
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus50: 13
-2017-03-22 01:12:30 [INFO ] (BusStop.java:42) - STOP4: Bus60 acquired semaphore
-2017-03-22 01:12:30 [INFO ] (BusStop.java:60) - STOP5: Exchange ended. Passengers on stop: 7. Buses on stop: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:45) - STOP4: Exchange started. Passengers on stop: 4. Buses on stop: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus10: 27
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus40: 3
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus50: 8
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus60: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:70) - STOP5. Bus10 leaved stop.
-2017-03-22 01:12:30 [INFO ] (BusStop.java:60) - STOP4: Exchange ended. Passengers on stop: 4. Buses on stop: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:40) - STOP6: Bus10 reached stop and wait. 
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus40: 3
-2017-03-22 01:12:30 [INFO ] (BusStop.java:42) - STOP6: Bus10 acquired semaphore
-2017-03-22 01:12:30 [INFO ] (BusStop.java:45) - STOP6: Exchange started. Passengers on stop: 16. Buses on stop: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus60: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus20: 9
-2017-03-22 01:12:30 [INFO ] (BusStop.java:70) - STOP4. Bus40 leaved stop.
-2017-03-22 01:12:30 [INFO ] (BusStop.java:40) - STOP5: Bus40 reached stop and wait. 
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus10: 27
-2017-03-22 01:12:30 [INFO ] (BusStop.java:42) - STOP5: Bus40 acquired semaphore
-2017-03-22 01:12:30 [INFO ] (BusStop.java:60) - STOP6: Exchange ended. Passengers on stop: 14. Buses on stop: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:45) - STOP5: Exchange started. Passengers on stop: 7. Buses on stop: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus20: 14
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus10: 24
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus50: 8
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus40: 3
-2017-03-22 01:12:30 [INFO ] (BusStop.java:60) - STOP5: Exchange ended. Passengers on stop: 5. Buses on stop: 2
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus50: 8
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus40: 5
-2017-03-22 01:12:30 [INFO ] (BusStop.java:70) - STOP9. Bus30 leaved stop.
-2017-03-22 01:12:30 [INFO ] (BusStop.java:40) - STOP3: Bus30 reached stop and wait. 
-2017-03-22 01:12:30 [INFO ] (BusStop.java:42) - STOP3: Bus30 acquired semaphore
-2017-03-22 01:12:30 [INFO ] (BusStop.java:45) - STOP3: Exchange started. Passengers on stop: 0. Buses on stop: 1
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus30: 12
-2017-03-22 01:12:30 [INFO ] (BusStop.java:60) - STOP3: Exchange ended. Passengers on stop: 1. Buses on stop: 1
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus30: 11
-2017-03-22 01:12:30 [INFO ] (BusStop.java:70) - STOP6. Bus20 leaved stop.
-2017-03-22 01:12:30 [INFO ] (BusStop.java:40) - STOP5: Bus20 reached stop and wait. 
-2017-03-22 01:12:30 [INFO ] (BusStop.java:42) - STOP5: Bus20 acquired semaphore
-2017-03-22 01:12:30 [INFO ] (BusStop.java:45) - STOP5: Exchange started. Passengers on stop: 5. Buses on stop: 3
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus50: 8
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus40: 5
-2017-03-22 01:12:30 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus20: 14
-2017-03-22 01:12:30 [INFO ] (BusStop.java:60) - STOP5: Exchange ended. Passengers on stop: 3. Buses on stop: 3
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus50: 20
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus40: 6
-2017-03-22 01:12:30 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus20: 3
-2017-03-22 01:12:31 [INFO ] (BusStop.java:70) - STOP6. Bus10 leaved stop.
-2017-03-22 01:12:31 [INFO ] (BusStop.java:70) - STOP5. Bus40 leaved stop.
-2017-03-22 01:12:31 [INFO ] (BusStop.java:40) - STOP7: Bus10 reached stop and wait. 
-2017-03-22 01:12:31 [INFO ] (BusStop.java:40) - STOP6: Bus40 reached stop and wait. 
-2017-03-22 01:12:31 [INFO ] (BusStop.java:42) - STOP7: Bus10 acquired semaphore
-2017-03-22 01:12:31 [INFO ] (BusStop.java:42) - STOP6: Bus40 acquired semaphore
-2017-03-22 01:12:31 [INFO ] (BusStop.java:45) - STOP6: Exchange started. Passengers on stop: 14. Buses on stop: 1
-2017-03-22 01:12:31 [INFO ] (BusStop.java:45) - STOP7: Exchange started. Passengers on stop: 14. Buses on stop: 1
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus40: 6
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus10: 24
-2017-03-22 01:12:31 [INFO ] (BusStop.java:60) - STOP6: Exchange ended. Passengers on stop: 3. Buses on stop: 1
-2017-03-22 01:12:31 [INFO ] (BusStop.java:60) - STOP7: Exchange ended. Passengers on stop: 11. Buses on stop: 1
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus40: 17
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus10: 27
-2017-03-22 01:12:31 [INFO ] (BusStop.java:70) - STOP4. Bus60 leaved stop.
-2017-03-22 01:12:31 [INFO ] (BusStop.java:70) - STOP5. Bus50 leaved stop.
-2017-03-22 01:12:31 [INFO ] (BusStop.java:40) - STOP5: Bus60 reached stop and wait. 
-2017-03-22 01:12:31 [INFO ] (BusStop.java:40) - STOP6: Bus50 reached stop and wait. 
-2017-03-22 01:12:31 [INFO ] (BusStop.java:42) - STOP5: Bus60 acquired semaphore
-2017-03-22 01:12:31 [INFO ] (BusStop.java:42) - STOP6: Bus50 acquired semaphore
-2017-03-22 01:12:31 [INFO ] (BusStop.java:45) - STOP5: Exchange started. Passengers on stop: 3. Buses on stop: 2
-2017-03-22 01:12:31 [INFO ] (BusStop.java:45) - STOP6: Exchange started. Passengers on stop: 3. Buses on stop: 2
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus20: 3
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus40: 17
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP5. Passengers in bus60: 2
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus50: 20
-2017-03-22 01:12:31 [INFO ] (BusStop.java:60) - STOP5: Exchange ended. Passengers on stop: 2. Buses on stop: 2
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus20: 4
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP5. Passengers in bus60: 2
-2017-03-22 01:12:31 [INFO ] (BusStop.java:60) - STOP6: Exchange ended. Passengers on stop: 3. Buses on stop: 2
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus40: 17
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus50: 20
-2017-03-22 01:12:31 [INFO ] (BusStop.java:70) - STOP3. Bus30 leaved stop.
-2017-03-22 01:12:31 [INFO ] (BusStop.java:70) - STOP5. Bus20 leaved stop.
-2017-03-22 01:12:31 [INFO ] (BusStop.java:40) - STOP4: Bus30 reached stop and wait. 
-2017-03-22 01:12:31 [INFO ] (BusStop.java:40) - STOP4: Bus20 reached stop and wait. 
-2017-03-22 01:12:31 [INFO ] (BusStop.java:42) - STOP4: Bus30 acquired semaphore
-2017-03-22 01:12:31 [INFO ] (BusStop.java:45) - STOP4: Exchange started. Passengers on stop: 4. Buses on stop: 1
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus30: 11
-2017-03-22 01:12:31 [INFO ] (BusStop.java:60) - STOP4: Exchange ended. Passengers on stop: 3. Buses on stop: 1
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus30: 12
-2017-03-22 01:12:31 [INFO ] (BusStop.java:42) - STOP4: Bus20 acquired semaphore
-2017-03-22 01:12:31 [INFO ] (BusStop.java:45) - STOP4: Exchange started. Passengers on stop: 3. Buses on stop: 2
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus30: 12
-2017-03-22 01:12:31 [INFO ] (BusStop.java:48) - STOP4. Passengers in bus20: 4
-2017-03-22 01:12:31 [INFO ] (BusStop.java:60) - STOP4: Exchange ended. Passengers on stop: 2. Buses on stop: 2
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus30: 12
-2017-03-22 01:12:31 [INFO ] (BusStop.java:63) - STOP4. Passengers in bus20: 5
-2017-03-22 01:12:32 [INFO ] (BusStop.java:70) - STOP6. Bus40 leaved stop.
-2017-03-22 01:12:32 [INFO ] (BusStop.java:70) - STOP7. Bus10 leaved stop.
-2017-03-22 01:12:32 [INFO ] (BusStop.java:40) - STOP7: Bus40 reached stop and wait. 
-2017-03-22 01:12:32 [INFO ] (BusStop.java:40) - STOP8: Bus10 reached stop and wait. 
-2017-03-22 01:12:32 [INFO ] (BusStop.java:42) - STOP7: Bus40 acquired semaphore
-2017-03-22 01:12:32 [INFO ] (BusStop.java:42) - STOP8: Bus10 acquired semaphore
-2017-03-22 01:12:32 [INFO ] (BusStop.java:45) - STOP7: Exchange started. Passengers on stop: 11. Buses on stop: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 12. Buses on stop: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus40: 17
-2017-03-22 01:12:32 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus10: 27
-2017-03-22 01:12:32 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 14. Buses on stop: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus10: 25
-2017-03-22 01:12:32 [INFO ] (BusStop.java:60) - STOP7: Exchange ended. Passengers on stop: 7. Buses on stop: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus40: 21
-2017-03-22 01:12:32 [INFO ] (BusStop.java:70) - STOP5. Bus60 leaved stop.
-2017-03-22 01:12:32 [INFO ] (BusStop.java:40) - STOP6: Bus60 reached stop and wait. 
-2017-03-22 01:12:32 [INFO ] (BusStop.java:42) - STOP6: Bus60 acquired semaphore
-2017-03-22 01:12:32 [INFO ] (BusStop.java:70) - STOP6. Bus50 leaved stop.
-2017-03-22 01:12:32 [INFO ] (BusStop.java:45) - STOP6: Exchange started. Passengers on stop: 3. Buses on stop: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus60: 2
-2017-03-22 01:12:32 [INFO ] (BusStop.java:60) - STOP6: Exchange ended. Passengers on stop: 4. Buses on stop: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus60: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:40) - STOP7: Bus50 reached stop and wait. 
-2017-03-22 01:12:32 [INFO ] (BusStop.java:42) - STOP7: Bus50 acquired semaphore
-2017-03-22 01:12:32 [INFO ] (BusStop.java:45) - STOP7: Exchange started. Passengers on stop: 7. Buses on stop: 2
-2017-03-22 01:12:32 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus40: 21
-2017-03-22 01:12:32 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus50: 20
-2017-03-22 01:12:32 [INFO ] (BusStop.java:60) - STOP7: Exchange ended. Passengers on stop: 5. Buses on stop: 2
-2017-03-22 01:12:32 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus40: 31
-2017-03-22 01:12:32 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus50: 12
-2017-03-22 01:12:32 [INFO ] (BusStop.java:70) - STOP4. Bus30 leaved stop.
-2017-03-22 01:12:32 [INFO ] (BusStop.java:40) - STOP6: Bus30 reached stop and wait. 
-2017-03-22 01:12:32 [INFO ] (BusStop.java:42) - STOP6: Bus30 acquired semaphore
-2017-03-22 01:12:32 [INFO ] (BusStop.java:45) - STOP6: Exchange started. Passengers on stop: 4. Buses on stop: 2
-2017-03-22 01:12:32 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus60: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:48) - STOP6. Passengers in bus30: 12
-2017-03-22 01:12:32 [INFO ] (BusStop.java:60) - STOP6: Exchange ended. Passengers on stop: 5. Buses on stop: 2
-2017-03-22 01:12:32 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus60: 3
-2017-03-22 01:12:32 [INFO ] (BusStop.java:63) - STOP6. Passengers in bus30: 9
-2017-03-22 01:12:32 [INFO ] (BusStop.java:70) - STOP4. Bus20 leaved stop.
-2017-03-22 01:12:32 [INFO ] (BusStop.java:40) - STOP3: Bus20 reached stop and wait. 
-2017-03-22 01:12:32 [INFO ] (BusStop.java:42) - STOP3: Bus20 acquired semaphore
-2017-03-22 01:12:32 [INFO ] (BusStop.java:45) - STOP3: Exchange started. Passengers on stop: 1. Buses on stop: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:48) - STOP3. Passengers in bus20: 5
-2017-03-22 01:12:32 [INFO ] (BusStop.java:60) - STOP3: Exchange ended. Passengers on stop: 2. Buses on stop: 1
-2017-03-22 01:12:32 [INFO ] (BusStop.java:63) - STOP3. Passengers in bus20: 4
-2017-03-22 01:12:33 [INFO ] (BusStop.java:70) - STOP8. Bus10 leaved stop.
-2017-03-22 01:12:33 [INFO ] (BusStop.java:70) - STOP7. Bus40 leaved stop.
-2017-03-22 01:12:33 [INFO ] (BusStop.java:40) - STOP8: Bus10 reached stop and wait. 
-2017-03-22 01:12:33 [INFO ] (BusStop.java:40) - STOP8: Bus40 reached stop and wait. 
-2017-03-22 01:12:33 [INFO ] (BusStop.java:42) - STOP8: Bus10 acquired semaphore
-2017-03-22 01:12:33 [INFO ] (BusStop.java:70) - STOP6. Bus60 leaved stop.
-2017-03-22 01:12:33 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 14. Buses on stop: 1
-2017-03-22 01:12:33 [INFO ] (BusStop.java:40) - STOP7: Bus60 reached stop and wait. 
-2017-03-22 01:12:33 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus10: 25
-2017-03-22 01:12:33 [INFO ] (BusStop.java:42) - STOP7: Bus60 acquired semaphore
-2017-03-22 01:12:33 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 14. Buses on stop: 1
-2017-03-22 01:12:33 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus10: 25
-2017-03-22 01:12:33 [INFO ] (BusStop.java:45) - STOP7: Exchange started. Passengers on stop: 5. Buses on stop: 2
-2017-03-22 01:12:33 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus50: 12
-2017-03-22 01:12:33 [INFO ] (BusStop.java:48) - STOP7. Passengers in bus60: 3
-2017-03-22 01:12:33 [INFO ] (BusStop.java:60) - STOP7: Exchange ended. Passengers on stop: 3. Buses on stop: 2
-2017-03-22 01:12:33 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus50: 13
-2017-03-22 01:12:33 [INFO ] (BusStop.java:63) - STOP7. Passengers in bus60: 4
-2017-03-22 01:12:33 [INFO ] (BusStop.java:70) - STOP7. Bus50 leaved stop.
-2017-03-22 01:12:33 [INFO ] (BusStop.java:40) - STOP8: Bus50 reached stop and wait. 
-2017-03-22 01:12:33 [INFO ] (BusStop.java:70) - STOP6. Bus30 leaved stop.
-2017-03-22 01:12:33 [INFO ] (BusStop.java:40) - STOP10: Bus30 reached stop and wait. 
-2017-03-22 01:12:33 [INFO ] (BusStop.java:42) - STOP10: Bus30 acquired semaphore
-2017-03-22 01:12:33 [INFO ] (BusStop.java:45) - STOP10: Exchange started. Passengers on stop: 2. Buses on stop: 1
-2017-03-22 01:12:33 [INFO ] (BusStop.java:48) - STOP10. Passengers in bus30: 9
-2017-03-22 01:12:33 [INFO ] (BusStop.java:60) - STOP10: Exchange ended. Passengers on stop: 0. Buses on stop: 1
-2017-03-22 01:12:33 [INFO ] (BusStop.java:63) - STOP10. Passengers in bus30: 11
-2017-03-22 01:12:33 [INFO ] (BusStop.java:70) - STOP3. Bus20 leaved stop.
-2017-03-22 01:12:33 [INFO ] (BusStop.java:40) - STOP2: Bus20 reached stop and wait. 
-2017-03-22 01:12:33 [INFO ] (BusStop.java:42) - STOP2: Bus20 acquired semaphore
-2017-03-22 01:12:33 [INFO ] (BusStop.java:45) - STOP2: Exchange started. Passengers on stop: 0. Buses on stop: 1
-2017-03-22 01:12:33 [INFO ] (BusStop.java:48) - STOP2. Passengers in bus20: 4
-2017-03-22 01:12:33 [INFO ] (BusStop.java:60) - STOP2: Exchange ended. Passengers on stop: 0. Buses on stop: 1
-2017-03-22 01:12:33 [INFO ] (BusStop.java:63) - STOP2. Passengers in bus20: 4
-2017-03-22 01:12:34 [INFO ] (BusStop.java:70) - STOP7. Bus60 leaved stop.
-2017-03-22 01:12:34 [INFO ] (BusStop.java:40) - STOP8: Bus60 reached stop and wait. 
-2017-03-22 01:12:34 [INFO ] (BusStop.java:70) - STOP10. Bus30 leaved stop.
-2017-03-22 01:12:34 [INFO ] (BusStop.java:70) - STOP8. Bus10 leaved stop.
-2017-03-22 01:12:34 [INFO ] (BusStop.java:40) - STOP8: Bus30 reached stop and wait. 
-2017-03-22 01:12:34 [INFO ] (BusStop.java:42) - STOP8: Bus40 acquired semaphore
-2017-03-22 01:12:34 [INFO ] (BusStop.java:40) - STOP10: Bus10 reached stop and wait. 
-2017-03-22 01:12:34 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 14. Buses on stop: 1
-2017-03-22 01:12:34 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus40: 31
-2017-03-22 01:12:34 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 15. Buses on stop: 1
-2017-03-22 01:12:34 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus40: 30
-2017-03-22 01:12:34 [INFO ] (BusStop.java:42) - STOP10: Bus10 acquired semaphore
-2017-03-22 01:12:34 [INFO ] (BusStop.java:45) - STOP10: Exchange started. Passengers on stop: 0. Buses on stop: 1
-2017-03-22 01:12:34 [INFO ] (BusStop.java:48) - STOP10. Passengers in bus10: 25
-2017-03-22 01:12:34 [INFO ] (BusStop.java:60) - STOP10: Exchange ended. Passengers on stop: 6. Buses on stop: 1
-2017-03-22 01:12:34 [INFO ] (BusStop.java:63) - STOP10. Passengers in bus10: 19
-2017-03-22 01:12:34 [INFO ] (BusStop.java:70) - STOP2. Bus20 leaved stop.
-2017-03-22 01:12:34 [INFO ] (BusStop.java:40) - STOP1: Bus20 reached stop and wait. 
-2017-03-22 01:12:34 [INFO ] (BusStop.java:42) - STOP1: Bus20 acquired semaphore
-2017-03-22 01:12:34 [INFO ] (BusStop.java:45) - STOP1: Exchange started. Passengers on stop: 6. Buses on stop: 1
-2017-03-22 01:12:34 [INFO ] (BusStop.java:48) - STOP1. Passengers in bus20: 4
-2017-03-22 01:12:34 [INFO ] (BusStop.java:60) - STOP1: Exchange ended. Passengers on stop: 8. Buses on stop: 1
-2017-03-22 01:12:34 [INFO ] (BusStop.java:63) - STOP1. Passengers in bus20: 2
-2017-03-22 01:12:35 [INFO ] (BusStop.java:70) - STOP8. Bus40 leaved stop.
-2017-03-22 01:12:35 [INFO ] (BusStop.java:70) - STOP10. Bus10 leaved stop.
-2017-03-22 01:12:35 [INFO ] (BusStop.java:40) - STOP8: Bus40 reached stop and wait. 
-2017-03-22 01:12:35 [INFO ] (BusStop.java:42) - STOP8: Bus50 acquired semaphore
-2017-03-22 01:12:35 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 15. Buses on stop: 1
-2017-03-22 01:12:35 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus50: 13
-2017-03-22 01:12:35 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 3. Buses on stop: 1
-2017-03-22 01:12:35 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus50: 25
-2017-03-22 01:12:35 [INFO ] (BusStop.java:70) - STOP1. Bus20 leaved stop.
-2017-03-22 01:12:36 [INFO ] (BusStop.java:70) - STOP8. Bus50 leaved stop.
-2017-03-22 01:12:36 [INFO ] (BusStop.java:42) - STOP8: Bus60 acquired semaphore
-2017-03-22 01:12:36 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 3. Buses on stop: 1
-2017-03-22 01:12:36 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus60: 4
-2017-03-22 01:12:36 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 2. Buses on stop: 1
-2017-03-22 01:12:36 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus60: 5
-2017-03-22 01:12:36 [INFO ] (BusStop.java:40) - STOP8: Bus50 reached stop and wait. 
-2017-03-22 01:12:37 [INFO ] (BusStop.java:70) - STOP8. Bus60 leaved stop.
-2017-03-22 01:12:37 [INFO ] (BusStop.java:42) - STOP8: Bus30 acquired semaphore
-2017-03-22 01:12:37 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 2. Buses on stop: 1
-2017-03-22 01:12:37 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus30: 11
-2017-03-22 01:12:37 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 8. Buses on stop: 1
-2017-03-22 01:12:37 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus30: 5
-2017-03-22 01:12:37 [INFO ] (BusStop.java:40) - STOP8: Bus60 reached stop and wait. 
-2017-03-22 01:12:38 [INFO ] (BusStop.java:70) - STOP8. Bus30 leaved stop.
-2017-03-22 01:12:38 [INFO ] (BusStop.java:42) - STOP8: Bus40 acquired semaphore
-2017-03-22 01:12:38 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 8. Buses on stop: 1
-2017-03-22 01:12:38 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus40: 30
-2017-03-22 01:12:38 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 7. Buses on stop: 1
-2017-03-22 01:12:38 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus40: 31
-2017-03-22 01:12:39 [INFO ] (BusStop.java:70) - STOP8. Bus40 leaved stop.
-2017-03-22 01:12:39 [INFO ] (BusStop.java:40) - STOP10: Bus40 reached stop and wait. 
-2017-03-22 01:12:39 [INFO ] (BusStop.java:42) - STOP8: Bus50 acquired semaphore
-2017-03-22 01:12:39 [INFO ] (BusStop.java:42) - STOP10: Bus40 acquired semaphore
-2017-03-22 01:12:39 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 7. Buses on stop: 1
-2017-03-22 01:12:39 [INFO ] (BusStop.java:45) - STOP10: Exchange started. Passengers on stop: 6. Buses on stop: 1
-2017-03-22 01:12:39 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus50: 25
-2017-03-22 01:12:39 [INFO ] (BusStop.java:48) - STOP10. Passengers in bus40: 31
-2017-03-22 01:12:39 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 8. Buses on stop: 1
-2017-03-22 01:12:39 [INFO ] (BusStop.java:60) - STOP10: Exchange ended. Passengers on stop: 5. Buses on stop: 1
-2017-03-22 01:12:39 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus50: 24
-2017-03-22 01:12:39 [INFO ] (BusStop.java:63) - STOP10. Passengers in bus40: 32
-2017-03-22 01:12:40 [INFO ] (BusStop.java:70) - STOP10. Bus40 leaved stop.
-2017-03-22 01:12:40 [INFO ] (BusStop.java:70) - STOP8. Bus50 leaved stop.
-2017-03-22 01:12:40 [INFO ] (BusStop.java:42) - STOP8: Bus60 acquired semaphore
-2017-03-22 01:12:40 [INFO ] (BusStop.java:40) - STOP10: Bus50 reached stop and wait. 
-2017-03-22 01:12:40 [INFO ] (BusStop.java:45) - STOP8: Exchange started. Passengers on stop: 8. Buses on stop: 1
-2017-03-22 01:12:40 [INFO ] (BusStop.java:48) - STOP8. Passengers in bus60: 5
-2017-03-22 01:12:40 [INFO ] (BusStop.java:60) - STOP8: Exchange ended. Passengers on stop: 9. Buses on stop: 1
-2017-03-22 01:12:40 [INFO ] (BusStop.java:63) - STOP8. Passengers in bus60: 4
-2017-03-22 01:12:40 [INFO ] (BusStop.java:42) - STOP10: Bus50 acquired semaphore
-2017-03-22 01:12:40 [INFO ] (BusStop.java:45) - STOP10: Exchange started. Passengers on stop: 5. Buses on stop: 1
-2017-03-22 01:12:40 [INFO ] (BusStop.java:48) - STOP10. Passengers in bus50: 24
-2017-03-22 01:12:40 [INFO ] (BusStop.java:60) - STOP10: Exchange ended. Passengers on stop: 6. Buses on stop: 1
-2017-03-22 01:12:40 [INFO ] (BusStop.java:63) - STOP10. Passengers in bus50: 23
-2017-03-22 01:12:41 [INFO ] (BusStop.java:70) - STOP8. Bus60 leaved stop.
-2017-03-22 01:12:41 [INFO ] (BusStop.java:40) - STOP10: Bus60 reached stop and wait. 
-2017-03-22 01:12:41 [INFO ] (BusStop.java:42) - STOP10: Bus60 acquired semaphore
-2017-03-22 01:12:41 [INFO ] (BusStop.java:70) - STOP10. Bus50 leaved stop.
-2017-03-22 01:12:41 [INFO ] (BusStop.java:45) - STOP10: Exchange started. Passengers on stop: 6. Buses on stop: 1
-2017-03-22 01:12:41 [INFO ] (BusStop.java:48) - STOP10. Passengers in bus60: 4
-2017-03-22 01:12:41 [INFO ] (BusStop.java:60) - STOP10: Exchange ended. Passengers on stop: 4. Buses on stop: 1
-2017-03-22 01:12:41 [INFO ] (BusStop.java:63) - STOP10. Passengers in bus60: 6
-2017-03-22 01:12:42 [INFO ] (BusStop.java:70) - STOP10. Bus60 leaved stop.
-2017-03-22 01:12:42 [INFO ] (RouteMain.java:37) - 348 passengers were transported.
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP1, capacity: 2, passengers: 20
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP2, capacity: 3, passengers: 10
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP3, capacity: 2, passengers: 10
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP4, capacity: 2, passengers: 15
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP5, capacity: 4, passengers: 8
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP6, capacity: 3, passengers: 18
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP7, capacity: 3, passengers: 9
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP8, capacity: 1, passengers: 11
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP9, capacity: 3, passengers: 14
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:37) - Added BusStop: STOP10, capacity: 3, passengers: 9
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:60) - Added route: 10[STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:60) - Added route: 20[STOP10, STOP9, STOP8, STOP7, STOP6, STOP5, STOP4, STOP3, STOP2, STOP1]
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:60) - Added route: 30[STOP1, STOP2, STOP5, STOP7, STOP9, STOP3, STOP4, STOP6, STOP10, STOP8]
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:60) - Added route: 40[STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:60) - Added route: 50[STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-22 01:54:00 [INFO ] (RouteBuilder.java:60) - Added route: 60[STOP1, STOP2, STOP3, STOP4, STOP5, STOP6, STOP7, STOP8, STOP8, STOP10]
+2017-03-22 01:54:00 [INFO ] (BusStop.java:40) - STOP10: Bus20 reached stop and wait. 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:42) - STOP10: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:00 [INFO ] (BusStop.java:45) - STOP10: Bus20 starts exchange. Passengers on stop: 9. 1 buses on stop: 20 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:48) - STOP10: Passengers in bus20: 0
+2017-03-22 01:54:00 [INFO ] (BusStop.java:60) - STOP10: Bus20 has ended exchange. Passengers on stop: 6. 1 buses on stop: 20 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:63) - STOP10: Passengers in bus20: 3
+2017-03-22 01:54:00 [INFO ] (BusStop.java:40) - STOP1: Bus30 reached stop and wait. 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:42) - STOP1: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:00 [INFO ] (BusStop.java:45) - STOP1: Bus30 starts exchange. Passengers on stop: 20. 1 buses on stop: 30 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus30: 0
+2017-03-22 01:54:00 [INFO ] (BusStop.java:60) - STOP1: Bus30 has ended exchange. Passengers on stop: 5. 1 buses on stop: 30 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus30: 15
+2017-03-22 01:54:00 [INFO ] (BusStop.java:40) - STOP1: Bus10 reached stop and wait. 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:42) - STOP1: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:00 [INFO ] (BusStop.java:45) - STOP1: Bus10 starts exchange. Passengers on stop: 5. 2 buses on stop: 30 10 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus30: 15
+2017-03-22 01:54:00 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus10: 0
+2017-03-22 01:54:00 [INFO ] (BusStop.java:40) - STOP1: Bus40 reached stop and wait. 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:40) - STOP1: Bus50 reached stop and wait. 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:60) - STOP1: Bus10 has ended exchange. Passengers on stop: 3. 2 buses on stop: 30 10 
+2017-03-22 01:54:00 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus30: 15
+2017-03-22 01:54:00 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus10: 2
+2017-03-22 01:54:00 [INFO ] (BusStop.java:40) - STOP1: Bus60 reached stop and wait. 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:70) - STOP10. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:01 [INFO ] (BusStop.java:40) - STOP9: Bus20 reached stop and wait. 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:42) - STOP9: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:01 [INFO ] (BusStop.java:45) - STOP9: Bus20 starts exchange. Passengers on stop: 14. 1 buses on stop: 20 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:48) - STOP9: Passengers in bus20: 3
+2017-03-22 01:54:01 [INFO ] (BusStop.java:60) - STOP9: Bus20 has ended exchange. Passengers on stop: 8. 1 buses on stop: 20 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:63) - STOP9: Passengers in bus20: 9
+2017-03-22 01:54:01 [INFO ] (BusStop.java:70) - STOP1. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:01 [INFO ] (BusStop.java:42) - STOP1: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:01 [INFO ] (BusStop.java:45) - STOP1: Bus40 starts exchange. Passengers on stop: 3. 2 buses on stop: 30 40 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus30: 15
+2017-03-22 01:54:01 [INFO ] (BusStop.java:40) - STOP2: Bus10 reached stop and wait. 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus40: 0
+2017-03-22 01:54:01 [INFO ] (BusStop.java:60) - STOP1: Bus40 has ended exchange. Passengers on stop: 2. 2 buses on stop: 30 40 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus30: 15
+2017-03-22 01:54:01 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus40: 1
+2017-03-22 01:54:01 [INFO ] (BusStop.java:42) - STOP2: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:01 [INFO ] (BusStop.java:45) - STOP2: Bus10 starts exchange. Passengers on stop: 10. 1 buses on stop: 10 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus10: 2
+2017-03-22 01:54:01 [INFO ] (BusStop.java:60) - STOP2: Bus10 has ended exchange. Passengers on stop: 7. 1 buses on stop: 10 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus10: 5
+2017-03-22 01:54:01 [INFO ] (BusStop.java:70) - STOP1. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:01 [INFO ] (BusStop.java:40) - STOP2: Bus30 reached stop and wait. 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:42) - STOP1: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:01 [INFO ] (BusStop.java:45) - STOP1: Bus50 starts exchange. Passengers on stop: 2. 2 buses on stop: 40 50 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus40: 1
+2017-03-22 01:54:01 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus50: 0
+2017-03-22 01:54:01 [INFO ] (BusStop.java:60) - STOP1: Bus50 has ended exchange. Passengers on stop: 1. 2 buses on stop: 40 50 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus40: 1
+2017-03-22 01:54:01 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus50: 1
+2017-03-22 01:54:01 [INFO ] (BusStop.java:42) - STOP2: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:01 [INFO ] (BusStop.java:45) - STOP2: Bus30 starts exchange. Passengers on stop: 7. 2 buses on stop: 10 30 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus10: 5
+2017-03-22 01:54:01 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus30: 15
+2017-03-22 01:54:01 [INFO ] (BusStop.java:60) - STOP2: Bus30 has ended exchange. Passengers on stop: 4. 2 buses on stop: 10 30 
+2017-03-22 01:54:01 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus10: 14
+2017-03-22 01:54:01 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus30: 9
+2017-03-22 01:54:02 [INFO ] (BusStop.java:70) - STOP9. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:02 [INFO ] (BusStop.java:40) - STOP8: Bus20 reached stop and wait. 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:42) - STOP8: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:02 [INFO ] (BusStop.java:45) - STOP8: Bus20 starts exchange. Passengers on stop: 11. 1 buses on stop: 20 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus20: 9
+2017-03-22 01:54:02 [INFO ] (BusStop.java:60) - STOP8: Bus20 has ended exchange. Passengers on stop: 5. 1 buses on stop: 20 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus20: 15
+2017-03-22 01:54:02 [INFO ] (BusStop.java:70) - STOP1. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:02 [INFO ] (BusStop.java:42) - STOP1: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:02 [INFO ] (BusStop.java:45) - STOP1: Bus60 starts exchange. Passengers on stop: 1. 2 buses on stop: 50 60 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus50: 1
+2017-03-22 01:54:02 [INFO ] (BusStop.java:40) - STOP2: Bus40 reached stop and wait. 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus60: 0
+2017-03-22 01:54:02 [INFO ] (BusStop.java:42) - STOP2: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:02 [INFO ] (BusStop.java:45) - STOP2: Bus40 starts exchange. Passengers on stop: 4. 3 buses on stop: 10 30 40 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:60) - STOP1: Bus60 has ended exchange. Passengers on stop: 0. 2 buses on stop: 50 60 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus50: 1
+2017-03-22 01:54:02 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus60: 1
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus10: 14
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus30: 9
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus40: 1
+2017-03-22 01:54:02 [INFO ] (BusStop.java:60) - STOP2: Bus40 has ended exchange. Passengers on stop: 1. 3 buses on stop: 10 30 40 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus10: 14
+2017-03-22 01:54:02 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus30: 9
+2017-03-22 01:54:02 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus40: 4
+2017-03-22 01:54:02 [INFO ] (BusStop.java:70) - STOP2. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:02 [INFO ] (BusStop.java:40) - STOP3: Bus10 reached stop and wait. 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:42) - STOP3: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:02 [INFO ] (BusStop.java:45) - STOP3: Bus10 starts exchange. Passengers on stop: 10. 1 buses on stop: 10 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus10: 14
+2017-03-22 01:54:02 [INFO ] (BusStop.java:60) - STOP3: Bus10 has ended exchange. Passengers on stop: 10. 1 buses on stop: 10 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus10: 14
+2017-03-22 01:54:02 [INFO ] (BusStop.java:70) - STOP2. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:02 [INFO ] (BusStop.java:40) - STOP5: Bus30 reached stop and wait. 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:42) - STOP5: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:02 [INFO ] (BusStop.java:45) - STOP5: Bus30 starts exchange. Passengers on stop: 8. 1 buses on stop: 30 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus30: 9
+2017-03-22 01:54:02 [INFO ] (BusStop.java:60) - STOP5: Bus30 has ended exchange. Passengers on stop: 3. 1 buses on stop: 30 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus30: 14
+2017-03-22 01:54:02 [INFO ] (BusStop.java:70) - STOP1. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:02 [INFO ] (BusStop.java:40) - STOP2: Bus50 reached stop and wait. 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:42) - STOP2: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:02 [INFO ] (BusStop.java:45) - STOP2: Bus50 starts exchange. Passengers on stop: 1. 2 buses on stop: 40 50 
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus40: 4
+2017-03-22 01:54:02 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus50: 1
+2017-03-22 01:54:03 [INFO ] (BusStop.java:60) - STOP2: Bus50 has ended exchange. Passengers on stop: 1. 2 buses on stop: 40 50 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus40: 5
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus50: 0
+2017-03-22 01:54:03 [INFO ] (BusStop.java:70) - STOP8. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:03 [INFO ] (BusStop.java:40) - STOP7: Bus20 reached stop and wait. 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:42) - STOP7: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:03 [INFO ] (BusStop.java:45) - STOP7: Bus20 starts exchange. Passengers on stop: 9. 1 buses on stop: 20 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus20: 15
+2017-03-22 01:54:03 [INFO ] (BusStop.java:60) - STOP7: Bus20 has ended exchange. Passengers on stop: 6. 1 buses on stop: 20 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus20: 18
+2017-03-22 01:54:03 [INFO ] (BusStop.java:70) - STOP1. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:03 [INFO ] (BusStop.java:40) - STOP2: Bus60 reached stop and wait. 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:42) - STOP2: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:03 [INFO ] (BusStop.java:45) - STOP2: Bus60 starts exchange. Passengers on stop: 1. 3 buses on stop: 40 50 60 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus40: 5
+2017-03-22 01:54:03 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus50: 0
+2017-03-22 01:54:03 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus60: 1
+2017-03-22 01:54:03 [INFO ] (BusStop.java:60) - STOP2: Bus60 has ended exchange. Passengers on stop: 0. 3 buses on stop: 40 50 60 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus40: 5
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus50: 0
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus60: 2
+2017-03-22 01:54:03 [INFO ] (BusStop.java:70) - STOP2. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:03 [INFO ] (BusStop.java:40) - STOP3: Bus40 reached stop and wait. 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:42) - STOP3: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:03 [INFO ] (BusStop.java:45) - STOP3: Bus40 starts exchange. Passengers on stop: 10. 2 buses on stop: 10 40 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus10: 14
+2017-03-22 01:54:03 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus40: 5
+2017-03-22 01:54:03 [INFO ] (BusStop.java:60) - STOP3: Bus40 has ended exchange. Passengers on stop: 12. 2 buses on stop: 10 40 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus10: 16
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus40: 1
+2017-03-22 01:54:03 [INFO ] (BusStop.java:70) - STOP3. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:03 [INFO ] (BusStop.java:40) - STOP4: Bus10 reached stop and wait. 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:42) - STOP4: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:03 [INFO ] (BusStop.java:45) - STOP4: Bus10 starts exchange. Passengers on stop: 15. 1 buses on stop: 10 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus10: 16
+2017-03-22 01:54:03 [INFO ] (BusStop.java:60) - STOP4: Bus10 has ended exchange. Passengers on stop: 15. 1 buses on stop: 10 
+2017-03-22 01:54:03 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus10: 16
+2017-03-22 01:54:04 [INFO ] (BusStop.java:70) - STOP2. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:04 [INFO ] (BusStop.java:70) - STOP5. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:04 [INFO ] (BusStop.java:40) - STOP7: Bus30 reached stop and wait. 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:42) - STOP7: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:04 [INFO ] (BusStop.java:45) - STOP7: Bus30 starts exchange. Passengers on stop: 6. 2 buses on stop: 20 30 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus20: 18
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus30: 14
+2017-03-22 01:54:04 [INFO ] (BusStop.java:60) - STOP7: Bus30 has ended exchange. Passengers on stop: 1. 2 buses on stop: 20 30 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus20: 25
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus30: 12
+2017-03-22 01:54:04 [INFO ] (BusStop.java:40) - STOP3: Bus50 reached stop and wait. 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:42) - STOP3: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:04 [INFO ] (BusStop.java:45) - STOP3: Bus50 starts exchange. Passengers on stop: 12. 2 buses on stop: 40 50 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus40: 1
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus50: 0
+2017-03-22 01:54:04 [INFO ] (BusStop.java:60) - STOP3: Bus50 has ended exchange. Passengers on stop: 6. 2 buses on stop: 40 50 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus40: 1
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus50: 6
+2017-03-22 01:54:04 [INFO ] (BusStop.java:70) - STOP7. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:04 [INFO ] (BusStop.java:40) - STOP6: Bus20 reached stop and wait. 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:42) - STOP6: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:04 [INFO ] (BusStop.java:45) - STOP6: Bus20 starts exchange. Passengers on stop: 18. 1 buses on stop: 20 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus20: 25
+2017-03-22 01:54:04 [INFO ] (BusStop.java:60) - STOP6: Bus20 has ended exchange. Passengers on stop: 5. 1 buses on stop: 20 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus20: 38
+2017-03-22 01:54:04 [INFO ] (BusStop.java:70) - STOP2. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:04 [INFO ] (BusStop.java:70) - STOP3. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:04 [INFO ] (BusStop.java:40) - STOP4: Bus40 reached stop and wait. 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:42) - STOP4: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:04 [INFO ] (BusStop.java:45) - STOP4: Bus40 starts exchange. Passengers on stop: 15. 2 buses on stop: 10 40 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus10: 16
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus40: 1
+2017-03-22 01:54:04 [INFO ] (BusStop.java:60) - STOP4: Bus40 has ended exchange. Passengers on stop: 1. 2 buses on stop: 10 40 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus10: 16
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus40: 15
+2017-03-22 01:54:04 [INFO ] (BusStop.java:40) - STOP3: Bus60 reached stop and wait. 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:42) - STOP3: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:04 [INFO ] (BusStop.java:45) - STOP3: Bus60 starts exchange. Passengers on stop: 6. 2 buses on stop: 50 60 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus50: 6
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus60: 2
+2017-03-22 01:54:04 [INFO ] (BusStop.java:60) - STOP3: Bus60 has ended exchange. Passengers on stop: 7. 2 buses on stop: 50 60 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus50: 6
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus60: 1
+2017-03-22 01:54:04 [INFO ] (BusStop.java:70) - STOP4. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:04 [INFO ] (BusStop.java:40) - STOP5: Bus10 reached stop and wait. 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:42) - STOP5: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:04 [INFO ] (BusStop.java:45) - STOP5: Bus10 starts exchange. Passengers on stop: 3. 1 buses on stop: 10 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus10: 16
+2017-03-22 01:54:04 [INFO ] (BusStop.java:60) - STOP5: Bus10 has ended exchange. Passengers on stop: 3. 1 buses on stop: 10 
+2017-03-22 01:54:04 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus10: 16
+2017-03-22 01:54:05 [INFO ] (BusStop.java:70) - STOP7. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:05 [INFO ] (BusStop.java:40) - STOP9: Bus30 reached stop and wait. 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:42) - STOP9: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:05 [INFO ] (BusStop.java:45) - STOP9: Bus30 starts exchange. Passengers on stop: 8. 1 buses on stop: 30 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP9: Passengers in bus30: 12
+2017-03-22 01:54:05 [INFO ] (BusStop.java:60) - STOP9: Bus30 has ended exchange. Passengers on stop: 5. 1 buses on stop: 30 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP9: Passengers in bus30: 15
+2017-03-22 01:54:05 [INFO ] (BusStop.java:70) - STOP3. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:05 [INFO ] (BusStop.java:40) - STOP4: Bus50 reached stop and wait. 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:42) - STOP4: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:05 [INFO ] (BusStop.java:45) - STOP4: Bus50 starts exchange. Passengers on stop: 1. 2 buses on stop: 40 50 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus40: 15
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus50: 6
+2017-03-22 01:54:05 [INFO ] (BusStop.java:60) - STOP4: Bus50 has ended exchange. Passengers on stop: 0. 2 buses on stop: 40 50 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus40: 16
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus50: 6
+2017-03-22 01:54:05 [INFO ] (BusStop.java:70) - STOP6. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:05 [INFO ] (BusStop.java:40) - STOP5: Bus20 reached stop and wait. 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:42) - STOP5: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:05 [INFO ] (BusStop.java:45) - STOP5: Bus20 starts exchange. Passengers on stop: 3. 2 buses on stop: 10 20 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus10: 16
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus20: 38
+2017-03-22 01:54:05 [INFO ] (BusStop.java:60) - STOP5: Bus20 has ended exchange. Passengers on stop: 2. 2 buses on stop: 10 20 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus10: 24
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus20: 31
+2017-03-22 01:54:05 [INFO ] (BusStop.java:70) - STOP3. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:05 [INFO ] (BusStop.java:40) - STOP4: Bus60 reached stop and wait. 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:70) - STOP4. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:05 [INFO ] (BusStop.java:42) - STOP4: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:05 [INFO ] (BusStop.java:45) - STOP4: Bus60 starts exchange. Passengers on stop: 0. 2 buses on stop: 50 60 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus50: 6
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus60: 1
+2017-03-22 01:54:05 [INFO ] (BusStop.java:60) - STOP4: Bus60 has ended exchange. Passengers on stop: 0. 2 buses on stop: 50 60 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus50: 6
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus60: 1
+2017-03-22 01:54:05 [INFO ] (BusStop.java:40) - STOP5: Bus40 reached stop and wait. 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:42) - STOP5: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:05 [INFO ] (BusStop.java:45) - STOP5: Bus40 starts exchange. Passengers on stop: 2. 3 buses on stop: 10 20 40 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus10: 24
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus20: 31
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus40: 16
+2017-03-22 01:54:05 [INFO ] (BusStop.java:60) - STOP5: Bus40 has ended exchange. Passengers on stop: 1. 3 buses on stop: 10 20 40 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus10: 24
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus20: 31
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus40: 17
+2017-03-22 01:54:05 [INFO ] (BusStop.java:70) - STOP5. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:05 [INFO ] (BusStop.java:40) - STOP6: Bus10 reached stop and wait. 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:42) - STOP6: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:05 [INFO ] (BusStop.java:45) - STOP6: Bus10 starts exchange. Passengers on stop: 5. 1 buses on stop: 10 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus10: 24
+2017-03-22 01:54:05 [INFO ] (BusStop.java:60) - STOP6: Bus10 has ended exchange. Passengers on stop: 12. 1 buses on stop: 10 
+2017-03-22 01:54:05 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus10: 17
+2017-03-22 01:54:06 [INFO ] (BusStop.java:70) - STOP9. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:06 [INFO ] (BusStop.java:40) - STOP3: Bus30 reached stop and wait. 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:42) - STOP3: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:06 [INFO ] (BusStop.java:45) - STOP3: Bus30 starts exchange. Passengers on stop: 7. 1 buses on stop: 30 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus30: 15
+2017-03-22 01:54:06 [INFO ] (BusStop.java:60) - STOP3: Bus30 has ended exchange. Passengers on stop: 14. 1 buses on stop: 30 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus30: 8
+2017-03-22 01:54:06 [INFO ] (BusStop.java:70) - STOP4. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:06 [INFO ] (BusStop.java:40) - STOP5: Bus50 reached stop and wait. 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:42) - STOP5: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:06 [INFO ] (BusStop.java:45) - STOP5: Bus50 starts exchange. Passengers on stop: 1. 3 buses on stop: 20 40 50 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus20: 31
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus40: 17
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus50: 6
+2017-03-22 01:54:06 [INFO ] (BusStop.java:60) - STOP5: Bus50 has ended exchange. Passengers on stop: 1. 3 buses on stop: 20 40 50 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus20: 31
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus40: 17
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus50: 6
+2017-03-22 01:54:06 [INFO ] (BusStop.java:70) - STOP5. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:06 [INFO ] (BusStop.java:40) - STOP4: Bus20 reached stop and wait. 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:42) - STOP4: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:06 [INFO ] (BusStop.java:45) - STOP4: Bus20 starts exchange. Passengers on stop: 0. 2 buses on stop: 60 20 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus60: 1
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus20: 31
+2017-03-22 01:54:06 [INFO ] (BusStop.java:60) - STOP4: Bus20 has ended exchange. Passengers on stop: 5. 2 buses on stop: 60 20 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus60: 12
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus20: 15
+2017-03-22 01:54:06 [INFO ] (BusStop.java:70) - STOP5. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:06 [INFO ] (BusStop.java:70) - STOP4. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:06 [INFO ] (BusStop.java:40) - STOP6: Bus40 reached stop and wait. 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:40) - STOP5: Bus60 reached stop and wait. 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:42) - STOP6: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:06 [INFO ] (BusStop.java:45) - STOP6: Bus40 starts exchange. Passengers on stop: 12. 2 buses on stop: 10 40 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus10: 17
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus40: 17
+2017-03-22 01:54:06 [INFO ] (BusStop.java:60) - STOP6: Bus40 has ended exchange. Passengers on stop: 11. 2 buses on stop: 10 40 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus10: 17
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus40: 18
+2017-03-22 01:54:06 [INFO ] (BusStop.java:42) - STOP5: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:06 [INFO ] (BusStop.java:45) - STOP5: Bus60 starts exchange. Passengers on stop: 1. 2 buses on stop: 50 60 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus50: 6
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP5: Passengers in bus60: 12
+2017-03-22 01:54:06 [INFO ] (BusStop.java:60) - STOP5: Bus60 has ended exchange. Passengers on stop: 1. 2 buses on stop: 50 60 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus50: 6
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP5: Passengers in bus60: 12
+2017-03-22 01:54:06 [INFO ] (BusStop.java:70) - STOP6. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:06 [INFO ] (BusStop.java:40) - STOP7: Bus10 reached stop and wait. 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:42) - STOP7: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:06 [INFO ] (BusStop.java:45) - STOP7: Bus10 starts exchange. Passengers on stop: 1. 1 buses on stop: 10 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus10: 17
+2017-03-22 01:54:06 [INFO ] (BusStop.java:60) - STOP7: Bus10 has ended exchange. Passengers on stop: 14. 1 buses on stop: 10 
+2017-03-22 01:54:06 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus10: 4
+2017-03-22 01:54:07 [INFO ] (BusStop.java:70) - STOP3. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:07 [INFO ] (BusStop.java:40) - STOP4: Bus30 reached stop and wait. 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:42) - STOP4: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:07 [INFO ] (BusStop.java:45) - STOP4: Bus30 starts exchange. Passengers on stop: 5. 2 buses on stop: 20 30 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus20: 15
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP4: Passengers in bus30: 8
+2017-03-22 01:54:07 [INFO ] (BusStop.java:60) - STOP4: Bus30 has ended exchange. Passengers on stop: 2. 2 buses on stop: 20 30 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus20: 17
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP4: Passengers in bus30: 9
+2017-03-22 01:54:07 [INFO ] (BusStop.java:70) - STOP5. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:07 [INFO ] (BusStop.java:40) - STOP6: Bus50 reached stop and wait. 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:42) - STOP6: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:07 [INFO ] (BusStop.java:45) - STOP6: Bus50 starts exchange. Passengers on stop: 11. 2 buses on stop: 40 50 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus40: 18
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus50: 6
+2017-03-22 01:54:07 [INFO ] (BusStop.java:60) - STOP6: Bus50 has ended exchange. Passengers on stop: 10. 2 buses on stop: 40 50 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus40: 21
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus50: 4
+2017-03-22 01:54:07 [INFO ] (BusStop.java:70) - STOP4. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:07 [INFO ] (BusStop.java:40) - STOP3: Bus20 reached stop and wait. 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:42) - STOP3: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:07 [INFO ] (BusStop.java:45) - STOP3: Bus20 starts exchange. Passengers on stop: 14. 1 buses on stop: 20 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP3: Passengers in bus20: 17
+2017-03-22 01:54:07 [INFO ] (BusStop.java:60) - STOP3: Bus20 has ended exchange. Passengers on stop: 12. 1 buses on stop: 20 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP3: Passengers in bus20: 19
+2017-03-22 01:54:07 [INFO ] (BusStop.java:70) - STOP5. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:07 [INFO ] (BusStop.java:40) - STOP6: Bus60 reached stop and wait. 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:42) - STOP6: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:07 [INFO ] (BusStop.java:45) - STOP6: Bus60 starts exchange. Passengers on stop: 10. 3 buses on stop: 40 50 60 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus40: 21
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus50: 4
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus60: 12
+2017-03-22 01:54:07 [INFO ] (BusStop.java:60) - STOP6: Bus60 has ended exchange. Passengers on stop: 8. 3 buses on stop: 40 50 60 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus40: 25
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus50: 5
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus60: 9
+2017-03-22 01:54:07 [INFO ] (BusStop.java:70) - STOP6. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:07 [INFO ] (BusStop.java:40) - STOP7: Bus40 reached stop and wait. 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:42) - STOP7: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:07 [INFO ] (BusStop.java:45) - STOP7: Bus40 starts exchange. Passengers on stop: 14. 2 buses on stop: 10 40 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus10: 4
+2017-03-22 01:54:07 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus40: 25
+2017-03-22 01:54:07 [INFO ] (BusStop.java:60) - STOP7: Bus40 has ended exchange. Passengers on stop: 13. 2 buses on stop: 10 40 
+2017-03-22 01:54:07 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus10: 5
+2017-03-22 01:54:08 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus40: 25
+2017-03-22 01:54:08 [INFO ] (BusStop.java:70) - STOP7. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:08 [INFO ] (BusStop.java:40) - STOP8: Bus10 reached stop and wait. 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:42) - STOP8: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:08 [INFO ] (BusStop.java:45) - STOP8: Bus10 starts exchange. Passengers on stop: 5. 1 buses on stop: 10 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus10: 5
+2017-03-22 01:54:08 [INFO ] (BusStop.java:60) - STOP8: Bus10 has ended exchange. Passengers on stop: 4. 1 buses on stop: 10 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus10: 6
+2017-03-22 01:54:08 [INFO ] (BusStop.java:70) - STOP4. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:08 [INFO ] (BusStop.java:40) - STOP6: Bus30 reached stop and wait. 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:42) - STOP6: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:08 [INFO ] (BusStop.java:45) - STOP6: Bus30 starts exchange. Passengers on stop: 8. 3 buses on stop: 50 60 30 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus50: 5
+2017-03-22 01:54:08 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus60: 9
+2017-03-22 01:54:08 [INFO ] (BusStop.java:48) - STOP6: Passengers in bus30: 9
+2017-03-22 01:54:08 [INFO ] (BusStop.java:60) - STOP6: Bus30 has ended exchange. Passengers on stop: 3. 3 buses on stop: 50 60 30 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus50: 7
+2017-03-22 01:54:08 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus60: 11
+2017-03-22 01:54:08 [INFO ] (BusStop.java:63) - STOP6: Passengers in bus30: 10
+2017-03-22 01:54:08 [INFO ] (BusStop.java:70) - STOP6. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:08 [INFO ] (BusStop.java:40) - STOP7: Bus50 reached stop and wait. 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:42) - STOP7: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:08 [INFO ] (BusStop.java:45) - STOP7: Bus50 starts exchange. Passengers on stop: 13. 2 buses on stop: 40 50 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus40: 25
+2017-03-22 01:54:08 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus50: 7
+2017-03-22 01:54:08 [INFO ] (BusStop.java:60) - STOP7: Bus50 has ended exchange. Passengers on stop: 8. 2 buses on stop: 40 50 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus40: 27
+2017-03-22 01:54:08 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus50: 10
+2017-03-22 01:54:08 [INFO ] (BusStop.java:70) - STOP3. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:08 [INFO ] (BusStop.java:40) - STOP2: Bus20 reached stop and wait. 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:42) - STOP2: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:08 [INFO ] (BusStop.java:45) - STOP2: Bus20 starts exchange. Passengers on stop: 0. 1 buses on stop: 20 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:48) - STOP2: Passengers in bus20: 19
+2017-03-22 01:54:08 [INFO ] (BusStop.java:60) - STOP2: Bus20 has ended exchange. Passengers on stop: 2. 1 buses on stop: 20 
+2017-03-22 01:54:08 [INFO ] (BusStop.java:63) - STOP2: Passengers in bus20: 17
+2017-03-22 01:54:09 [INFO ] (BusStop.java:70) - STOP6. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:09 [INFO ] (BusStop.java:40) - STOP7: Bus60 reached stop and wait. 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:42) - STOP7: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:09 [INFO ] (BusStop.java:45) - STOP7: Bus60 starts exchange. Passengers on stop: 8. 3 buses on stop: 40 50 60 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus40: 27
+2017-03-22 01:54:09 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus50: 10
+2017-03-22 01:54:09 [INFO ] (BusStop.java:48) - STOP7: Passengers in bus60: 11
+2017-03-22 01:54:09 [INFO ] (BusStop.java:60) - STOP7: Bus60 has ended exchange. Passengers on stop: 2. 3 buses on stop: 40 50 60 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus40: 28
+2017-03-22 01:54:09 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus50: 11
+2017-03-22 01:54:09 [INFO ] (BusStop.java:63) - STOP7: Passengers in bus60: 15
+2017-03-22 01:54:09 [INFO ] (BusStop.java:70) - STOP8. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:09 [INFO ] (BusStop.java:40) - STOP8: Bus10 reached stop and wait. 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:42) - STOP8: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:09 [INFO ] (BusStop.java:45) - STOP8: Bus10 starts exchange. Passengers on stop: 4. 1 buses on stop: 10 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus10: 6
+2017-03-22 01:54:09 [INFO ] (BusStop.java:60) - STOP8: Bus10 has ended exchange. Passengers on stop: 2. 1 buses on stop: 10 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus10: 8
+2017-03-22 01:54:09 [INFO ] (BusStop.java:70) - STOP7. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:09 [INFO ] (BusStop.java:40) - STOP8: Bus40 reached stop and wait. 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:70) - STOP6. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:09 [INFO ] (BusStop.java:40) - STOP10: Bus30 reached stop and wait. 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:42) - STOP10: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:09 [INFO ] (BusStop.java:45) - STOP10: Bus30 starts exchange. Passengers on stop: 6. 1 buses on stop: 30 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:48) - STOP10: Passengers in bus30: 10
+2017-03-22 01:54:09 [INFO ] (BusStop.java:60) - STOP10: Bus30 has ended exchange. Passengers on stop: 6. 1 buses on stop: 30 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:63) - STOP10: Passengers in bus30: 10
+2017-03-22 01:54:09 [INFO ] (BusStop.java:70) - STOP7. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:09 [INFO ] (BusStop.java:40) - STOP8: Bus50 reached stop and wait. 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:70) - STOP2. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:09 [INFO ] (BusStop.java:40) - STOP1: Bus20 reached stop and wait. 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:42) - STOP1: Bus20 opens doors (acquired semaphore)
+2017-03-22 01:54:09 [INFO ] (BusStop.java:45) - STOP1: Bus20 starts exchange. Passengers on stop: 0. 1 buses on stop: 20 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:48) - STOP1: Passengers in bus20: 17
+2017-03-22 01:54:09 [INFO ] (BusStop.java:60) - STOP1: Bus20 has ended exchange. Passengers on stop: 10. 1 buses on stop: 20 
+2017-03-22 01:54:09 [INFO ] (BusStop.java:63) - STOP1: Passengers in bus20: 7
+2017-03-22 01:54:10 [INFO ] (BusStop.java:70) - STOP7. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:10 [INFO ] (BusStop.java:40) - STOP8: Bus60 reached stop and wait. 
+2017-03-22 01:54:10 [INFO ] (BusStop.java:70) - STOP8. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:10 [INFO ] (BusStop.java:40) - STOP10: Bus10 reached stop and wait. 
+2017-03-22 01:54:10 [INFO ] (BusStop.java:42) - STOP8: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:10 [INFO ] (BusStop.java:42) - STOP10: Bus10 opens doors (acquired semaphore)
+2017-03-22 01:54:10 [INFO ] (BusStop.java:45) - STOP8: Bus40 starts exchange. Passengers on stop: 2. 1 buses on stop: 40 
+2017-03-22 01:54:10 [INFO ] (BusStop.java:45) - STOP10: Bus10 starts exchange. Passengers on stop: 6. 2 buses on stop: 30 10 
+2017-03-22 01:54:10 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus40: 28
+2017-03-22 01:54:10 [INFO ] (BusStop.java:48) - STOP10: Passengers in bus30: 10
+2017-03-22 01:54:10 [INFO ] (BusStop.java:60) - STOP8: Bus40 has ended exchange. Passengers on stop: 7. 1 buses on stop: 40 
+2017-03-22 01:54:10 [INFO ] (BusStop.java:48) - STOP10: Passengers in bus10: 8
+2017-03-22 01:54:10 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus40: 23
+2017-03-22 01:54:10 [INFO ] (BusStop.java:60) - STOP10: Bus10 has ended exchange. Passengers on stop: 8. 2 buses on stop: 30 10 
+2017-03-22 01:54:10 [INFO ] (BusStop.java:63) - STOP10: Passengers in bus30: 13
+2017-03-22 01:54:10 [INFO ] (BusStop.java:63) - STOP10: Passengers in bus10: 3
+2017-03-22 01:54:10 [INFO ] (BusStop.java:70) - STOP10. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:10 [INFO ] (BusStop.java:40) - STOP8: Bus30 reached stop and wait. 
+2017-03-22 01:54:11 [INFO ] (BusStop.java:70) - STOP1. Bus20 has closed doors and leaves stop.
+2017-03-22 01:54:11 [INFO ] (BusStop.java:70) - STOP10. Bus10 has closed doors and leaves stop.
+2017-03-22 01:54:11 [INFO ] (BusStop.java:70) - STOP8. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:11 [INFO ] (BusStop.java:42) - STOP8: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:11 [INFO ] (BusStop.java:45) - STOP8: Bus50 starts exchange. Passengers on stop: 7. 1 buses on stop: 50 
+2017-03-22 01:54:11 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus50: 11
+2017-03-22 01:54:11 [INFO ] (BusStop.java:60) - STOP8: Bus50 has ended exchange. Passengers on stop: 7. 1 buses on stop: 50 
+2017-03-22 01:54:11 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus50: 11
+2017-03-22 01:54:11 [INFO ] (BusStop.java:40) - STOP8: Bus40 reached stop and wait. 
+2017-03-22 01:54:12 [INFO ] (BusStop.java:70) - STOP8. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:12 [INFO ] (BusStop.java:40) - STOP8: Bus50 reached stop and wait. 
+2017-03-22 01:54:12 [INFO ] (BusStop.java:42) - STOP8: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:12 [INFO ] (BusStop.java:45) - STOP8: Bus60 starts exchange. Passengers on stop: 7. 1 buses on stop: 60 
+2017-03-22 01:54:12 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus60: 15
+2017-03-22 01:54:12 [INFO ] (BusStop.java:60) - STOP8: Bus60 has ended exchange. Passengers on stop: 4. 1 buses on stop: 60 
+2017-03-22 01:54:12 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus60: 18
+2017-03-22 01:54:13 [INFO ] (BusStop.java:70) - STOP8. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:13 [INFO ] (BusStop.java:40) - STOP8: Bus60 reached stop and wait. 
+2017-03-22 01:54:13 [INFO ] (BusStop.java:42) - STOP8: Bus30 opens doors (acquired semaphore)
+2017-03-22 01:54:13 [INFO ] (BusStop.java:45) - STOP8: Bus30 starts exchange. Passengers on stop: 4. 1 buses on stop: 30 
+2017-03-22 01:54:13 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus30: 13
+2017-03-22 01:54:13 [INFO ] (BusStop.java:60) - STOP8: Bus30 has ended exchange. Passengers on stop: 1. 1 buses on stop: 30 
+2017-03-22 01:54:13 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus30: 16
+2017-03-22 01:54:14 [INFO ] (BusStop.java:70) - STOP8. Bus30 has closed doors and leaves stop.
+2017-03-22 01:54:14 [INFO ] (BusStop.java:42) - STOP8: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:14 [INFO ] (BusStop.java:45) - STOP8: Bus40 starts exchange. Passengers on stop: 1. 1 buses on stop: 40 
+2017-03-22 01:54:14 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus40: 23
+2017-03-22 01:54:14 [INFO ] (BusStop.java:60) - STOP8: Bus40 has ended exchange. Passengers on stop: 10. 1 buses on stop: 40 
+2017-03-22 01:54:14 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus40: 14
+2017-03-22 01:54:15 [INFO ] (BusStop.java:70) - STOP8. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:15 [INFO ] (BusStop.java:40) - STOP10: Bus40 reached stop and wait. 
+2017-03-22 01:54:15 [INFO ] (BusStop.java:42) - STOP8: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:15 [INFO ] (BusStop.java:42) - STOP10: Bus40 opens doors (acquired semaphore)
+2017-03-22 01:54:15 [INFO ] (BusStop.java:45) - STOP8: Bus50 starts exchange. Passengers on stop: 10. 1 buses on stop: 50 
+2017-03-22 01:54:15 [INFO ] (BusStop.java:45) - STOP10: Bus40 starts exchange. Passengers on stop: 8. 1 buses on stop: 40 
+2017-03-22 01:54:15 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus50: 11
+2017-03-22 01:54:15 [INFO ] (BusStop.java:48) - STOP10: Passengers in bus40: 14
+2017-03-22 01:54:15 [INFO ] (BusStop.java:60) - STOP8: Bus50 has ended exchange. Passengers on stop: 18. 1 buses on stop: 50 
+2017-03-22 01:54:15 [INFO ] (BusStop.java:60) - STOP10: Bus40 has ended exchange. Passengers on stop: 7. 1 buses on stop: 40 
+2017-03-22 01:54:15 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus50: 3
+2017-03-22 01:54:15 [INFO ] (BusStop.java:63) - STOP10: Passengers in bus40: 15
+2017-03-22 01:54:16 [INFO ] (BusStop.java:70) - STOP8. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:16 [INFO ] (BusStop.java:42) - STOP8: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:16 [INFO ] (BusStop.java:45) - STOP8: Bus60 starts exchange. Passengers on stop: 18. 1 buses on stop: 60 
+2017-03-22 01:54:16 [INFO ] (BusStop.java:48) - STOP8: Passengers in bus60: 18
+2017-03-22 01:54:16 [INFO ] (BusStop.java:60) - STOP8: Bus60 has ended exchange. Passengers on stop: 16. 1 buses on stop: 60 
+2017-03-22 01:54:16 [INFO ] (BusStop.java:63) - STOP8: Passengers in bus60: 20
+2017-03-22 01:54:16 [INFO ] (BusStop.java:40) - STOP10: Bus50 reached stop and wait. 
+2017-03-22 01:54:16 [INFO ] (BusStop.java:70) - STOP10. Bus40 has closed doors and leaves stop.
+2017-03-22 01:54:16 [INFO ] (BusStop.java:42) - STOP10: Bus50 opens doors (acquired semaphore)
+2017-03-22 01:54:16 [INFO ] (BusStop.java:45) - STOP10: Bus50 starts exchange. Passengers on stop: 7. 1 buses on stop: 50 
+2017-03-22 01:54:16 [INFO ] (BusStop.java:48) - STOP10: Passengers in bus50: 3
+2017-03-22 01:54:16 [INFO ] (BusStop.java:60) - STOP10: Bus50 has ended exchange. Passengers on stop: 4. 1 buses on stop: 50 
+2017-03-22 01:54:16 [INFO ] (BusStop.java:63) - STOP10: Passengers in bus50: 6
+2017-03-22 01:54:17 [INFO ] (BusStop.java:70) - STOP8. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:17 [INFO ] (BusStop.java:70) - STOP10. Bus50 has closed doors and leaves stop.
+2017-03-22 01:54:17 [INFO ] (BusStop.java:40) - STOP10: Bus60 reached stop and wait. 
+2017-03-22 01:54:17 [INFO ] (BusStop.java:42) - STOP10: Bus60 opens doors (acquired semaphore)
+2017-03-22 01:54:17 [INFO ] (BusStop.java:45) - STOP10: Bus60 starts exchange. Passengers on stop: 4. 1 buses on stop: 60 
+2017-03-22 01:54:17 [INFO ] (BusStop.java:48) - STOP10: Passengers in bus60: 20
+2017-03-22 01:54:17 [INFO ] (BusStop.java:60) - STOP10: Bus60 has ended exchange. Passengers on stop: 5. 1 buses on stop: 60 
+2017-03-22 01:54:17 [INFO ] (BusStop.java:63) - STOP10: Passengers in bus60: 19
+2017-03-22 01:54:18 [INFO ] (BusStop.java:70) - STOP10. Bus60 has closed doors and leaves stop.
+2017-03-22 01:54:18 [INFO ] (RouteMain.java:37) - 381 passengers were transported.

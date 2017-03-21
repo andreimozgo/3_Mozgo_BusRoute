@@ -39,13 +39,13 @@ public class BusStop {
     public void exchangePassengers(Bus bus) throws InterruptedException {
         LOGGER.log(Level.INFO, "{}: Bus" + bus.getNumber() + " reached stop and wait. ", name);
         semaphore.acquire();
-        LOGGER.log(Level.INFO, "{}: Bus" + bus.getNumber() + " acquired semaphore", name);
+        LOGGER.log(Level.INFO, "{}: Bus" + bus.getNumber() + " opens doors (acquired semaphore)", name);
         busStopLock.lock();
         stoppedBuses.add(bus);
-        LOGGER.log(Level.INFO, "{}: Exchange started. Passengers on stop: {}. Buses on stop: {}",
-                name, passengersOnStop, stoppedBuses.size());
+        LOGGER.log(Level.INFO, "{}: Bus{} starts exchange. Passengers on stop: {}. {} buses on stop: {}",
+                name, bus.getNumber(), passengersOnStop, stoppedBuses.size(), getStoppedBusesNumbers());
         for (Bus stoppedBus : stoppedBuses) {
-            LOGGER.log(Level.INFO, "{}. Passengers in bus{}: {}", name, stoppedBus.getNumber(), stoppedBus.getPassengers());
+            LOGGER.log(Level.INFO, "{}: Passengers in bus{}: {}", name, stoppedBus.getNumber(), stoppedBus.getPassengers());
         }
         int passengersLeaveBus = (int) Math.round(Math.random() * bus.getPassengers());
         int passengersEnterBus = (int) Math.round(Math.random() * passengersOnStop);
@@ -57,18 +57,27 @@ public class BusStop {
         }
         passengersOnStop = passengersOnStop - passengersEnterBus + passengersLeaveBus;
         bus.addPassengers(passengersEnterBus);
-        LOGGER.log(Level.INFO, "{}: Exchange ended. Passengers on stop: {}. Buses on stop: {}",
-                name, passengersOnStop, stoppedBuses.size());
+        LOGGER.log(Level.INFO, "{}: Bus{} has ended exchange. Passengers on stop: {}. {} buses on stop: {}",
+                name, bus.getNumber(), passengersOnStop, stoppedBuses.size(), getStoppedBusesNumbers());
         for (Bus stoppedBus : stoppedBuses) {
-            LOGGER.log(Level.INFO, "{}. Passengers in bus{}: {}", name, stoppedBus.getNumber(), stoppedBus.getPassengers());
+            LOGGER.log(Level.INFO, "{}: Passengers in bus{}: {}", name, stoppedBus.getNumber(), stoppedBus.getPassengers());
         }
         busStopLock.unlock();
         TimeUnit.SECONDS.sleep(1);
         busStopLock.lock();
         stoppedBuses.remove(bus);
         busStopLock.unlock();
-        LOGGER.log(Level.INFO, "{}. Bus{} leaved stop.", name, bus.getNumber());
+        LOGGER.log(Level.INFO, "{}. Bus{} has closed doors and leaves stop.", name, bus.getNumber());
         semaphore.release();
+    }
+
+    private StringBuilder getStoppedBusesNumbers() {
+        StringBuilder numbers = new StringBuilder();
+        for (Bus bus : stoppedBuses) {
+            numbers.append(bus.getNumber());
+            numbers.append(" ");
+        }
+        return numbers;
     }
 
     @Override
