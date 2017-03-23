@@ -17,7 +17,7 @@ import java.util.List;
 public class RouteReader {
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public static List<String> readData(String filename) throws RuntimeException {
+    public static List<String> readData(String filename) {
         if (filename == null) {
             LOGGER.log(Level.FATAL, "Input filename is null!");
             throw new RuntimeException("Input filename is null!");
@@ -33,7 +33,7 @@ public class RouteReader {
             LOGGER.log(Level.FATAL, "Input file not found! {}", e);
             throw new RuntimeException(e + "Input file not found!", e);
         }
-        if (lines.size() == 0) {
+        if (lines.isEmpty()) {
             LOGGER.log(Level.FATAL, "Input file empty! ");
             throw new RuntimeException("Input file empty!");
         }

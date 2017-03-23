@@ -63,7 +63,7 @@ public class RouteBuilder {
                     LOGGER.log(Level.ERROR, "Invalid line.");
             }
         }
-        if (listBusStops.size() == 0 || TimeTable.getInstance().getSize() == 0) {
+        if (listBusStops.isEmpty() || TimeTable.getInstance().getSize() == 0) {
             LOGGER.log(Level.FATAL, "Incorrect input file. Data doesn't enough to run the application.");
             throw new RuntimeException("Incorrect input file. Data doesn't enough to run the application.");
         }
