@@ -32,10 +32,6 @@ public class BusStop {
         return name;
     }
 
-    public int getPassengersOnStop() {
-        return passengersOnStop;
-    }
-
     public void exchangePassengers(Bus bus) throws InterruptedException {
         LOGGER.log(Level.INFO, "{}: Bus" + bus.getNumber() + " reached stop and wait. ", name);
         semaphore.acquire();
