@@ -36,7 +36,6 @@ public class RouteBuilder {
                             listBusStops.add(busStop);
                             LOGGER.log(Level.INFO, "Added BusStop: {}, capacity: {}, passengers: {}", busStopName,
                                     capacity, passengersOnStop);
-
                         } catch (NumberFormatException e) {
                             LOGGER.log(Level.ERROR, "Incorrect symbol in line. {}", e);
                         }
@@ -63,7 +62,7 @@ public class RouteBuilder {
                     LOGGER.log(Level.ERROR, "Invalid line.");
             }
         }
-        if (listBusStops.isEmpty() || TimeTable.getInstance().getSize() == 0) {
+        if (listBusStops.isEmpty() || TimeTable.getInstance().isEmpty()) {
             LOGGER.log(Level.FATAL, "Incorrect input file. Data doesn't enough to run the application.");
             throw new RuntimeException("Incorrect input file. Data doesn't enough to run the application.");
         }

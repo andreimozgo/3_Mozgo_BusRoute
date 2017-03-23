@@ -47,4 +47,8 @@ public class TimeTable {
         lock.unlock();
         return route;
     }
+
+    public boolean isEmpty() {
+        return routes.isEmpty();
+    }
 }
