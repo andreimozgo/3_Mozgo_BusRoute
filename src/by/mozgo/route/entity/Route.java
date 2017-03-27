@@ -35,8 +35,7 @@ public class Route {
             return true;
         if (obj.getClass() == this.getClass()) {
             Route route = (Route) obj;
-            if (route.number == this.number &&
-                    route.busStops.equals(this.busStops)) {
+            if (route.number == this.number && route.busStops.equals(this.busStops)) {
                 return true;
             }
         }
